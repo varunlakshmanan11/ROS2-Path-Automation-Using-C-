@@ -26,10 +26,6 @@
                      if the turtlebot reached a waypoint it will log it in the terminal.
 
 
-- Exeptions(IMPORTANT!!!)
-    sometimes when launching the node it will not get the waypoint in the first try 
-    then you have to restart the node.(please try multiple times)
-
 - If nothing works please reachout to use.
 
 This is the link for the youtube video of the package working on our machine. https://youtu.be/N27e0BAGu2Q
