@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target part_pose_listener[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/main.cpp.o[0m
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:[m[K In member function ‘[01m[Kvoid PartPoseListener::feedback_callback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:406:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  406 |     [01;35m[Kconst std::shared_ptr<const NavigateToPose::Feedback> feedback[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable part_pose_listener[0m
+/usr/bin/ld: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o: in function `rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::Client(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_action_client_options_t const&)':
+part_pose_listener.cpp:(.text._ZN13rclcpp_action6ClientIN9nav2_msgs6action14NavigateToPoseEEC2ESt10shared_ptrIN6rclcpp15node_interfaces17NodeBaseInterfaceEES5_INS7_18NodeGraphInterfaceEES5_INS7_20NodeLoggingInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK27rcl_action_client_options_t[_ZN13rclcpp_action6ClientIN9nav2_msgs6action14NavigateToPoseEEC5ESt10shared_ptrIN6rclcpp15node_interfaces17NodeBaseInterfaceEES5_INS7_18NodeGraphInterfaceEES5_INS7_20NodeLoggingInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK27rcl_action_client_options_t]+0x3b): undefined reference to `rosidl_action_type_support_t const* rosidl_typesupport_cpp::get_action_type_support_handle<nav2_msgs::action::NavigateToPose>()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:197: part_pose_listener] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

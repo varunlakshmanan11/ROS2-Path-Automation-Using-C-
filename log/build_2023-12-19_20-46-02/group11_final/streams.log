@@ -1,0 +1,78 @@
+[0.253s] Invoking command in '/home/nitish/final_ws/build/group11_final': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12
+[0.330s] [35m[1mScanning dependencies of target part_pose_listener[0m
+[0.418s] [ 33%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/main.cpp.o[0m
+[0.421s] [ 66%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o[0m
+[4.172s] In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/main.cpp:1[m[K:
+[4.172s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’
+[4.172s]    33 |     void [01;31m[KnavigateThroughWaypoints[m[K();
+[4.173s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.173s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:32:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’
+[4.173s]    32 |     void [01;36m[KnavigateThroughWaypoints[m[K();
+[4.173s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.173s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:34:35:[m[K [01;31m[Kerror: [m[K‘[01m[KWaypoint[m[K’ does not name a type
+[4.173s]    34 |     void sendGoalToWaypoint(const [01;31m[KWaypoint[m[K& waypoint);
+[4.173s]       |                                   [01;31m[K^~~~~~~~[m[K
+[4.173s] In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[4.173s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’
+[4.173s]    33 |     void [01;31m[KnavigateThroughWaypoints[m[K();
+[4.174s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.174s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:32:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’
+[4.174s]    32 |     void [01;36m[KnavigateThroughWaypoints[m[K();
+[4.174s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.174s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:34:35:[m[K [01;31m[Kerror: [m[K‘[01m[KWaypoint[m[K’ does not name a type
+[4.174s]    34 |     void sendGoalToWaypoint(const [01;31m[KWaypoint[m[K& waypoint);
+[4.174s]       |                                   [01;31m[K^~~~~~~~[m[K
+[4.217s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:113:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+[4.217s]   113 |   void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+[4.217s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.217s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+[4.217s]    35 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+[4.217s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.217s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:118:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+[4.218s]   118 |     void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+[4.218s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.218s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+[4.218s]    35 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+[4.218s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.260s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:113:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+[4.260s]   113 |   void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+[4.260s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.261s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+[4.261s]    35 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+[4.261s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.261s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:118:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+[4.261s]   118 |     void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+[4.261s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.261s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+[4.261s]    35 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+[4.261s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.400s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:129:27:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+[4.400s]   129 |     std::vector<Waypoint> [01;31m[Kwaypoints_[m[K;
+[4.401s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[4.401s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:46:27:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+[4.402s]    46 |     std::vector<Waypoint> [01;36m[Kwaypoints_[m[K;
+[4.402s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[4.403s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:131:54:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_[m[K’
+[4.403s]   131 |     rclcpp_action::Client<NavigateToPose>::SharedPtr [01;31m[Knavigate_to_pose_client_[m[K;
+[4.403s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.403s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:119:54:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_[m[K’
+[4.403s]   119 |     rclcpp_action::Client<NavigateToPose>::SharedPtr [01;36m[Knavigate_to_pose_client_[m[K;
+[4.403s]       |                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.435s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:129:27:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+[4.435s]   129 |     std::vector<Waypoint> [01;31m[Kwaypoints_[m[K;
+[4.435s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[4.435s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:46:27:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+[4.435s]    46 |     std::vector<Waypoint> [01;36m[Kwaypoints_[m[K;
+[4.435s]       |                           [01;36m[K^~~~~~~~~~[m[K
+[4.436s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:131:54:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_[m[K’
+[4.436s]   131 |     rclcpp_action::Client<NavigateToPose>::SharedPtr [01;31m[Knavigate_to_pose_client_[m[K;
+[4.436s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.436s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:119:54:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_[m[K’
+[4.436s]   119 |     rclcpp_action::Client<NavigateToPose>::SharedPtr [01;36m[Knavigate_to_pose_client_[m[K;
+[4.436s]       |                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.106s] make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:76: CMakeFiles/part_pose_listener.dir/src/main.cpp.o] Error 1
+[5.106s] make[2]: *** Waiting for unfinished jobs....
+[11.247s] make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1
+[11.247s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2
+[11.247s] make: *** [Makefile:141: all] Error 2
+[11.254s] Invoked command in '/home/nitish/final_ws/build/group11_final' returned '2': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12

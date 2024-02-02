@@ -1,0 +1,199 @@
+[5.653s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'group11_final']
+[5.653s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f79140edee0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['group11_final'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f79140edee0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7913cb5d00>)
+[5.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.914s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nitish/final_ws'
+[5.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_project) by extensions ['ignore', 'ignore_ament_install']
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_project) by extension 'ignore'
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_project) by extension 'ignore_ament_install'
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_project) by extensions ['colcon_pkg']
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_project) by extension 'colcon_pkg'
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_project) by extensions ['colcon_meta']
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_project) by extension 'colcon_meta'
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_project) by extensions ['ros']
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_project) by extension 'ros'
+[5.945s] DEBUG:colcon.colcon_core.package_identification:Package 'src/final_project' with type 'ros.ament_cmake' and name 'final_project'
+[5.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/group11_final) by extensions ['ignore', 'ignore_ament_install']
+[5.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/group11_final) by extension 'ignore'
+[5.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/group11_final) by extension 'ignore_ament_install'
+[5.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/group11_final) by extensions ['colcon_pkg']
+[5.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/group11_final) by extension 'colcon_pkg'
+[5.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/group11_final) by extensions ['colcon_meta']
+[5.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/group11_final) by extension 'colcon_meta'
+[5.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/group11_final) by extensions ['ros']
+[5.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/group11_final) by extension 'ros'
+[5.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/group11_final' with type 'ros.ament_cmake' and name 'group11_final'
+[5.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/mage_msgs) by extensions ['ignore', 'ignore_ament_install']
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/mage_msgs) by extension 'ignore'
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/mage_msgs) by extension 'ignore_ament_install'
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/mage_msgs) by extensions ['colcon_pkg']
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/mage_msgs) by extension 'colcon_pkg'
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/mage_msgs) by extensions ['colcon_meta']
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/mage_msgs) by extension 'colcon_meta'
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/mage_msgs) by extensions ['ros']
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/mage_msgs) by extension 'ros'
+[5.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mage_msgs' with type 'ros.ament_cmake' and name 'mage_msgs'
+[5.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[5.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore'
+[5.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore_ament_install'
+[5.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_pkg']
+[5.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_pkg'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_meta']
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_meta'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ros']
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ros'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['cmake', 'python']
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'cmake'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['python_setup_py']
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python_setup_py'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[5.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ros']
+[5.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ros'
+[5.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[5.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[5.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[5.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[5.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[5.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[5.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[5.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[5.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[5.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[5.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[5.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.290s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mage_msgs' in 'src/mage_msgs'
+[6.290s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_aruco' in 'src/ros2_aruco/ros2_aruco'
+[6.290s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_aruco_interfaces' in 'src/ros2_aruco/ros2_aruco_interfaces'
+[6.290s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'final_project' in 'src/final_project'
+[6.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.734s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/nitish/final_ws/install
+[6.825s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 353 installed packages in /opt/ros/galactic
+[6.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.224s] Level 5:colcon.colcon_core.verb:set package 'group11_final' build argument 'cmake_args' from command line to 'None'
+[7.224s] Level 5:colcon.colcon_core.verb:set package 'group11_final' build argument 'cmake_target' from command line to 'None'
+[7.224s] Level 5:colcon.colcon_core.verb:set package 'group11_final' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.224s] Level 5:colcon.colcon_core.verb:set package 'group11_final' build argument 'cmake_clean_cache' from command line to 'False'
+[7.224s] Level 5:colcon.colcon_core.verb:set package 'group11_final' build argument 'cmake_clean_first' from command line to 'False'
+[7.224s] Level 5:colcon.colcon_core.verb:set package 'group11_final' build argument 'cmake_force_configure' from command line to 'False'
+[7.224s] Level 5:colcon.colcon_core.verb:set package 'group11_final' build argument 'ament_cmake_args' from command line to 'None'
+[7.224s] Level 5:colcon.colcon_core.verb:set package 'group11_final' build argument 'catkin_cmake_args' from command line to 'None'
+[7.224s] Level 5:colcon.colcon_core.verb:set package 'group11_final' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.224s] DEBUG:colcon.colcon_core.verb:Building package 'group11_final' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nitish/final_ws/build/group11_final', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nitish/final_ws/install/group11_final', 'merge_install': False, 'path': '/home/nitish/final_ws/src/group11_final', 'symlink_install': False, 'test_result_base': None}
+[7.315s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.412s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nitish/final_ws/src/group11_final' with build type 'ament_cmake'
+[7.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nitish/final_ws/src/group11_final'
+[7.522s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nitish/final_ws/build/group11_final': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12
+[8.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nitish/final_ws/build/group11_final' returned '0': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12
+[8.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nitish/final_ws/build/group11_final': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/nitish/final_ws/build/group11_final
+[8.159s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(group11_final)
+[8.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nitish/final_ws/build/group11_final' returned '0': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/nitish/final_ws/build/group11_final
+[8.278s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final' for CMake module files
+[8.279s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final' for CMake config files
+[8.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('group11_final', 'cmake_prefix_path')
+[8.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nitish/final_ws/install/group11_final/share/group11_final/hook/cmake_prefix_path.ps1'
+[8.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nitish/final_ws/install/group11_final/share/group11_final/hook/cmake_prefix_path.dsv'
+[8.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nitish/final_ws/install/group11_final/share/group11_final/hook/cmake_prefix_path.sh'
+[8.394s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/lib'
+[8.395s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/bin'
+[8.395s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/lib/pkgconfig/group11_final.pc'
+[8.396s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/lib/python3.8/site-packages'
+[8.397s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/bin'
+[8.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/nitish/final_ws/install/group11_final/share/group11_final/package.ps1'
+[8.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nitish/final_ws/install/group11_final/share/group11_final/package.dsv'
+[8.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/nitish/final_ws/install/group11_final/share/group11_final/package.sh'
+[8.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/nitish/final_ws/install/group11_final/share/group11_final/package.bash'
+[8.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/nitish/final_ws/install/group11_final/share/group11_final/package.zsh'
+[8.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nitish/final_ws/install/group11_final/share/colcon-core/packages/group11_final)
+[8.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(group11_final)
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final' for CMake module files
+[8.759s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final' for CMake config files
+[8.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('group11_final', 'cmake_prefix_path')
+[8.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nitish/final_ws/install/group11_final/share/group11_final/hook/cmake_prefix_path.ps1'
+[8.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nitish/final_ws/install/group11_final/share/group11_final/hook/cmake_prefix_path.dsv'
+[8.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nitish/final_ws/install/group11_final/share/group11_final/hook/cmake_prefix_path.sh'
+[8.843s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/lib'
+[8.844s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/bin'
+[8.845s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/lib/pkgconfig/group11_final.pc'
+[8.846s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/lib/python3.8/site-packages'
+[8.846s] Level 1:colcon.colcon_core.environment:checking '/home/nitish/final_ws/install/group11_final/bin'
+[8.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/nitish/final_ws/install/group11_final/share/group11_final/package.ps1'
+[8.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nitish/final_ws/install/group11_final/share/group11_final/package.dsv'
+[8.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/nitish/final_ws/install/group11_final/share/group11_final/package.sh'
+[8.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/nitish/final_ws/install/group11_final/share/group11_final/package.bash'
+[8.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/nitish/final_ws/install/group11_final/share/group11_final/package.zsh'
+[8.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nitish/final_ws/install/group11_final/share/colcon-core/packages/group11_final)
+[8.968s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.969s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.970s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.080s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.081s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.081s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.094s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nitish/final_ws/install/local_setup.ps1'
+[9.196s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nitish/final_ws/install/_local_setup_util_ps1.py'
+[9.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nitish/final_ws/install/setup.ps1'
+[9.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nitish/final_ws/install/local_setup.sh'
+[9.304s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nitish/final_ws/install/_local_setup_util_sh.py'
+[9.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nitish/final_ws/install/setup.sh'
+[9.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nitish/final_ws/install/local_setup.bash'
+[9.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nitish/final_ws/install/setup.bash'
+[9.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nitish/final_ws/install/local_setup.zsh'
+[9.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nitish/final_ws/install/setup.zsh'

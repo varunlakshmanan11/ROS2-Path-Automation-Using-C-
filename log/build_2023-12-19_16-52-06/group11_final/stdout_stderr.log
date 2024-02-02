@@ -1,0 +1,50 @@
+[35m[1mScanning dependencies of target part_pose_listener[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o[0m
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:[m[K In constructor ‘[01m[KPartPoseListener::PartPoseListener()[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:84:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KPartPoseListener::tfListener[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   84 |     tf2_ros::TransformListener [01;35m[KtfListener[m[K;
+      |                                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:64:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klong int PartPoseListener::aruco_marker_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+   64 |     long [01;35m[Karuco_marker_id_[m[K; // Variable to store the ArUco marker ID
+      |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    3 | [01;35m[KPartPoseListener[m[K::PartPoseListener() : Node("part_pose_listener"),
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:68:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KPartPoseListener::info_logged_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   68 |     bool [01;35m[Kinfo_logged_[m[K;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:60:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksize_t PartPoseListener::total_parts_to_detect[m[K’ [[01;35m[K-Wreorder[m[K]
+   60 |     size_t [01;35m[Ktotal_parts_to_detect[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    3 | [01;35m[KPartPoseListener[m[K::PartPoseListener() : Node("part_pose_listener"),
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable part_pose_listener[0m
+[100%] Built target part_pose_listener
+-- Install configuration: ""
+-- Installing: /home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener
+-- Set runtime path of "/home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener" to ""
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final/part_pose_listener.hpp
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//config
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//config/waypoint_params.yaml
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//launch
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//launch/launch.py
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/package_run_dependencies/group11_final
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/parent_prefix_path/group11_final
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.sh
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.dsv
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.bash
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.sh
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.zsh
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.dsv
+-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/package.dsv
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/packages/group11_final
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig.cmake
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig-version.cmake
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/package.xml

@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000552] (-) JobUnselected: {'identifier': 'final_project'}
+[0.001098] (-) TimerEvent: {}
+[0.001783] (-) JobUnselected: {'identifier': 'mage_msgs'}
+[0.001848] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.001880] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.002126] (group11_final) JobQueued: {'identifier': 'group11_final', 'dependencies': OrderedDict([('mage_msgs', '/home/nitish/final_ws/install/mage_msgs'), ('ros2_aruco_interfaces', '/home/nitish/final_ws/install/ros2_aruco_interfaces')])}
+[0.002172] (group11_final) JobStarted: {'identifier': 'group11_final'}
+[0.101481] (-) TimerEvent: {}
+[0.196774] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'cmake'}
+[0.198574] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'build'}
+[0.200578] (group11_final) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nitish/final_ws/build/group11_final', '--', '-j12', '-l12'], 'cwd': '/home/nitish/final_ws/build/group11_final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1465'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1216'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28730'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nitish/final_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:38386'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1503,unix/vulcan:/tmp/.ICE-unix/1503'), ('INVOCATION_ID', '79f52ac71b0a479f980d600903afafc7'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/ros2_aruco:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d6abaea7-a307-472d-95ef-a58898174e9c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/group11_final'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic')]), 'shell': False}
+[0.207569] (-) TimerEvent: {}
+[0.303909] (group11_final) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target part_pose_listener\x1b[0m\n'}
+[0.307745] (-) TimerEvent: {}
+[0.398250] (group11_final) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/main.cpp.o\x1b[0m\n'}
+[0.399103] (group11_final) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o\x1b[0m\n'}
+[0.407904] (-) TimerEvent: {}
+[0.508732] (-) TimerEvent: {}
+[0.610463] (-) TimerEvent: {}
+[0.711297] (-) TimerEvent: {}
+[0.812289] (-) TimerEvent: {}
+[0.913759] (-) TimerEvent: {}
+[1.014225] (-) TimerEvent: {}
+[1.114793] (-) TimerEvent: {}
+[1.215367] (-) TimerEvent: {}
+[1.315918] (-) TimerEvent: {}
+[1.416763] (-) TimerEvent: {}
+[1.517311] (-) TimerEvent: {}
+[1.617823] (-) TimerEvent: {}
+[1.718559] (-) TimerEvent: {}
+[1.820795] (-) TimerEvent: {}
+[1.921710] (-) TimerEvent: {}
+[2.022672] (-) TimerEvent: {}
+[2.123314] (-) TimerEvent: {}
+[2.223864] (-) TimerEvent: {}
+[2.324575] (-) TimerEvent: {}
+[2.425624] (-) TimerEvent: {}
+[2.526155] (-) TimerEvent: {}
+[2.626816] (-) TimerEvent: {}
+[2.727908] (-) TimerEvent: {}
+[2.828580] (-) TimerEvent: {}
+[2.928963] (-) TimerEvent: {}
+[3.029825] (-) TimerEvent: {}
+[3.130563] (-) TimerEvent: {}
+[3.231080] (-) TimerEvent: {}
+[3.331424] (-) TimerEvent: {}
+[3.435141] (-) TimerEvent: {}
+[3.535508] (-) TimerEvent: {}
+[3.636352] (-) TimerEvent: {}
+[3.736904] (-) TimerEvent: {}
+[3.839156] (-) TimerEvent: {}
+[3.939766] (-) TimerEvent: {}
+[4.040579] (-) TimerEvent: {}
+[4.141585] (-) TimerEvent: {}
+[4.242447] (-) TimerEvent: {}
+[4.343367] (-) TimerEvent: {}
+[4.444252] (-) TimerEvent: {}
+[4.544897] (-) TimerEvent: {}
+[4.645813] (-) TimerEvent: {}
+[4.746538] (-) TimerEvent: {}
+[4.846836] (-) TimerEvent: {}
+[4.947832] (-) TimerEvent: {}
+[5.048314] (-) TimerEvent: {}
+[5.148668] (-) TimerEvent: {}
+[5.249188] (-) TimerEvent: {}
+[5.349763] (-) TimerEvent: {}
+[5.450792] (-) TimerEvent: {}
+[5.551236] (-) TimerEvent: {}
+[5.568201] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPartPoseListener::PartPoseListener()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.569108] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:70:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.569637] (group11_final) StderrLine: {'line': b'   70 |     \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K =\n'}
+[5.570185] (group11_final) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.571189] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:71:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNavigateToPose\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knav2_msgs::action::NavigateToPose\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.571790] (group11_final) StderrLine: {'line': b'   71 |         rclcpp_action::create_client<\x1b[01;31m\x1b[KNavigateToPose\x1b[m\x1b[K>(this, "navigate_to_pose");\n'}
+[5.572039] (group11_final) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.572341] (group11_final) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Knav2_msgs::action::NavigateToPose\x1b[m\x1b[K\n'}
+[5.572693] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/nav2_msgs/action/navigate_to_pose.hpp:7\x1b[m\x1b[K,\n'}
+[5.573084] (group11_final) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:14\x1b[m\x1b[K,\n'}
+[5.573340] (group11_final) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1\x1b[m\x1b[K:\n'}
+[5.573508] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/nav2_msgs/action/detail/navigate_to_pose__struct.hpp:1134:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav2_msgs::action::NavigateToPose\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.573650] (group11_final) StderrLine: {'line': b' 1134 | typedef struct NavigateToPose \x1b[01;36m\x1b[KNavigateToPose\x1b[m\x1b[K;\n'}
+[5.573772] (group11_final) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.573890] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:71:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_client<<expression error> >(PartPoseListener*, const char [17])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.574017] (group11_final) StderrLine: {'line': b'   71 |         rclcpp_action::create_client<NavigateToPose>(this, "navigate_to_pose"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.574149] (group11_final) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.574287] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp_action/rclcpp_action.hpp:38\x1b[m\x1b[K,\n'}
+[5.574491] (group11_final) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:13\x1b[m\x1b[K,\n'}
+[5.574771] (group11_final) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1\x1b[m\x1b[K:\n'}
+[5.575389] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp_action/create_client.hpp:44:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.575951] (group11_final) StderrLine: {'line': b'   44 | \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[5.576422] (group11_final) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.578693] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp_action/create_client.hpp:44:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.578890] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:71:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.579025] (group11_final) StderrLine: {'line': b'   71 |         rclcpp_action::create_client<NavigateToPose>(this, "navigate_to_pose"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.579212] (group11_final) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.580347] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp_action/rclcpp_action.hpp:38\x1b[m\x1b[K,\n'}
+[5.580652] (group11_final) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:13\x1b[m\x1b[K,\n'}
+[5.581095] (group11_final) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1\x1b[m\x1b[K:\n'}
+[5.581458] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp_action/create_client.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.581695] (group11_final) StderrLine: {'line': b'  105 | \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[5.581883] (group11_final) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.582080] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp_action/create_client.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.582249] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:71:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.582391] (group11_final) StderrLine: {'line': b'   71 |         rclcpp_action::create_client<NavigateToPose>(this, "navigate_to_pose"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.590033] (group11_final) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.651664] (-) TimerEvent: {}
+[5.752578] (-) TimerEvent: {}
+[5.853591] (-) TimerEvent: {}
+[5.953981] (-) TimerEvent: {}
+[6.054538] (-) TimerEvent: {}
+[6.159186] (-) TimerEvent: {}
+[6.259664] (-) TimerEvent: {}
+[6.361368] (-) TimerEvent: {}
+[6.462445] (-) TimerEvent: {}
+[6.563436] (-) TimerEvent: {}
+[6.664235] (-) TimerEvent: {}
+[6.765131] (-) TimerEvent: {}
+[6.865714] (-) TimerEvent: {}
+[6.966192] (-) TimerEvent: {}
+[7.067106] (-) TimerEvent: {}
+[7.167649] (-) TimerEvent: {}
+[7.268484] (-) TimerEvent: {}
+[7.369186] (-) TimerEvent: {}
+[7.470048] (-) TimerEvent: {}
+[7.570613] (-) TimerEvent: {}
+[7.670871] (-) TimerEvent: {}
+[7.771154] (-) TimerEvent: {}
+[7.871510] (-) TimerEvent: {}
+[7.972136] (-) TimerEvent: {}
+[8.072535] (-) TimerEvent: {}
+[8.172828] (-) TimerEvent: {}
+[8.273289] (-) TimerEvent: {}
+[8.373841] (-) TimerEvent: {}
+[8.474146] (-) TimerEvent: {}
+[8.574617] (-) TimerEvent: {}
+[8.675490] (-) TimerEvent: {}
+[8.776157] (-) TimerEvent: {}
+[8.876583] (-) TimerEvent: {}
+[8.977023] (-) TimerEvent: {}
+[9.077658] (-) TimerEvent: {}
+[9.178237] (-) TimerEvent: {}
+[9.278745] (-) TimerEvent: {}
+[9.379455] (-) TimerEvent: {}
+[9.480150] (-) TimerEvent: {}
+[9.580874] (-) TimerEvent: {}
+[9.681277] (-) TimerEvent: {}
+[9.781946] (-) TimerEvent: {}
+[9.882354] (-) TimerEvent: {}
+[9.982672] (-) TimerEvent: {}
+[10.083384] (-) TimerEvent: {}
+[10.183805] (-) TimerEvent: {}
+[10.284173] (-) TimerEvent: {}
+[10.384629] (-) TimerEvent: {}
+[10.484980] (-) TimerEvent: {}
+[10.585308] (-) TimerEvent: {}
+[10.685913] (-) TimerEvent: {}
+[10.786299] (-) TimerEvent: {}
+[10.887003] (-) TimerEvent: {}
+[10.987298] (-) TimerEvent: {}
+[11.087601] (-) TimerEvent: {}
+[11.188047] (-) TimerEvent: {}
+[11.288443] (-) TimerEvent: {}
+[11.596930] (-) TimerEvent: {}
+[11.697287] (-) TimerEvent: {}
+[11.797654] (-) TimerEvent: {}
+[11.898099] (-) TimerEvent: {}
+[11.998496] (-) TimerEvent: {}
+[12.098978] (-) TimerEvent: {}
+[12.199859] (-) TimerEvent: {}
+[12.300590] (-) TimerEvent: {}
+[12.400989] (-) TimerEvent: {}
+[12.501940] (-) TimerEvent: {}
+[12.603243] (-) TimerEvent: {}
+[12.647948] (group11_final) StderrLine: {'line': b'make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1\n'}
+[12.648204] (group11_final) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2\n'}
+[12.648377] (group11_final) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[12.650447] (group11_final) CommandEnded: {'returncode': 2}
+[12.705332] (-) TimerEvent: {}
+[12.806497] (-) TimerEvent: {}
+[12.910088] (-) TimerEvent: {}
+[13.011312] (-) TimerEvent: {}
+[13.113276] (-) TimerEvent: {}
+[13.214775] (-) TimerEvent: {}
+[13.240534] (group11_final) JobEnded: {'identifier': 'group11_final', 'rc': 2}
+[13.251243] (-) EventReactorShutdown: {}

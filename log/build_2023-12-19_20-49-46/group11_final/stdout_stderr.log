@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target part_pose_listener[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o[0m
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:[m[K In constructor ‘[01m[KPartPoseListener::PartPoseListener()[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:70:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   70 |     [01;31m[Kclient_[m[K =
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:71:38:[m[K [01;31m[Kerror: [m[K‘[01m[KNavigateToPose[m[K’ was not declared in this scope; did you mean ‘[01m[Knav2_msgs::action::NavigateToPose[m[K’?
+   71 |         rclcpp_action::create_client<[01;31m[KNavigateToPose[m[K>(this, "navigate_to_pose");
+      |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                      [32m[Knav2_msgs::action::NavigateToPose[m[K
+In file included from [01m[K/opt/ros/galactic/include/nav2_msgs/action/navigate_to_pose.hpp:7[m[K,
+                 from [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:14[m[K,
+                 from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/opt/ros/galactic/include/nav2_msgs/action/detail/navigate_to_pose__struct.hpp:1134:31:[m[K [01;36m[Knote: [m[K‘[01m[Knav2_msgs::action::NavigateToPose[m[K’ declared here
+ 1134 | typedef struct NavigateToPose [01;36m[KNavigateToPose[m[K;
+      |                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:71:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_client<<expression error> >(PartPoseListener*, const char [17])[m[K’
+   71 |         rclcpp_action::create_client<NavigateToPose>(this, "navigate_to_pose"[01;31m[K)[m[K;
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp_action/rclcpp_action.hpp:38[m[K,
+                 from [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:13[m[K,
+                 from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp_action/create_client.hpp:44:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)[m[K’
+   44 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp_action/create_client.hpp:44:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:71:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   71 |         rclcpp_action::create_client<NavigateToPose>(this, "navigate_to_pose"[01;31m[K)[m[K;
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp_action/rclcpp_action.hpp:38[m[K,
+                 from [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:13[m[K,
+                 from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::create_client(NodeT, const string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)[m[K’
+  105 | [01;36m[Kcreate_client[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:71:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   71 |         rclcpp_action::create_client<NavigateToPose>(this, "navigate_to_pose"[01;31m[K)[m[K;
+      |                                                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

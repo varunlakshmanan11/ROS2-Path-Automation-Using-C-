@@ -1,0 +1,51 @@
+[35m[1mScanning dependencies of target part_pose_listener[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o[0m
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:[m[K In constructor ‘[01m[KPartPoseListener::PartPoseListener()[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:78:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KPartPoseListener::tfListener[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   78 |     tf2_ros::TransformListener [01;35m[KtfListener[m[K;
+      |                                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:62:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klong int PartPoseListener::aruco_marker_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+   62 |     long [01;35m[Karuco_marker_id_[m[K; // Variable to store the ArUco marker ID
+      |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    3 | [01;35m[KPartPoseListener[m[K::PartPoseListener() : Node("part_pose_listener"),
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:65:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KPartPoseListener::info_logged_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   65 |     bool [01;35m[Kinfo_logged_[m[K;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:59:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksize_t PartPoseListener::total_parts_to_detect[m[K’ [[01;35m[K-Wreorder[m[K]
+   59 |     size_t [01;35m[Ktotal_parts_to_detect[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    3 | [01;35m[KPartPoseListener[m[K::PartPoseListener() : Node("part_pose_listener"),
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:[m[K In member function ‘[01m[Kvoid PartPoseListener::cameraCallback(mage_msgs::msg::AdvancedLogicalCameraImage_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:187:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[K}[m[K’ token
+  187 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:187:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K}[m[K’ token
+  187 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+      |     [32m[K([m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:187:5:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[K}[m[K’ token
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:186:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+  186 |         }
+      |          [01;31m[K^[m[K
+      |          [32m[K)[m[K
+  187 |     [32m[K}[m[K
+      |     [32m[K~[m[K     
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:187:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K}[m[K’ token
+  187 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:[m[K At global scope:
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:188:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kcatch[m[K’
+  188 |     [01;31m[Kcatch[m[K (tf2::TransformException &ex)
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:192:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  192 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

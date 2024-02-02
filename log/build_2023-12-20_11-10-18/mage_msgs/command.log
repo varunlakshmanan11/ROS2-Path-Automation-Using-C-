@@ -1,0 +1,4 @@
+Invoking command in '/home/nitish/final_ws/build/mage_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/nitish/final_ws/build/mage_msgs -- -j12 -l12
+Invoked command in '/home/nitish/final_ws/build/mage_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/nitish/final_ws/build/mage_msgs -- -j12 -l12
+Invoking command in '/home/nitish/final_ws/build/mage_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/nitish/final_ws/build/mage_msgs
+Invoked command in '/home/nitish/final_ws/build/mage_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/nitish/final_ws/build/mage_msgs

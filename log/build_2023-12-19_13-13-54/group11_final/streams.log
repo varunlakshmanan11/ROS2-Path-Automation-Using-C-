@@ -1,0 +1,45 @@
+[0.332s] Invoking command in '/home/nitish/final_ws/build/group11_final': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12
+[0.414s] [35m[1mScanning dependencies of target part_pose_listener[0m
+[0.481s] [ 33%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o[0m
+[0.481s] [ 66%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/main.cpp.o[0m
+[3.371s] In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[3.371s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:[m[K In constructor ‘[01m[KPartPoseListener::PartPoseListener()[m[K’:
+[3.371s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:57:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KPartPoseListener::tfListener[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[3.372s]    57 |     tf2_ros::TransformListener [01;35m[KtfListener[m[K;
+[3.372s]       |                                [01;35m[K^~~~~~~~~~[m[K
+[3.372s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:41:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klong int PartPoseListener::aruco_marker_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+[3.372s]    41 |     long [01;35m[Karuco_marker_id_[m[K; // Variable to store the ArUco marker ID
+[3.372s]       |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.372s] [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[3.372s]     3 | [01;35m[KPartPoseListener[m[K::PartPoseListener() : Node("part_pose_listener"),
+[3.372s]       | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[14.258s] [100%] [32m[1mLinking CXX executable part_pose_listener[0m
+[14.979s] [100%] Built target part_pose_listener
+[14.996s] Invoked command in '/home/nitish/final_ws/build/group11_final' returned '0': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12
+[15.059s] Invoking command in '/home/nitish/final_ws/build/group11_final': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/nitish/final_ws/build/group11_final
+[15.071s] -- Install configuration: ""
+[15.072s] -- Installing: /home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener
+[15.081s] -- Set runtime path of "/home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener" to ""
+[15.081s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include
+[15.081s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final
+[15.082s] -- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final/part_pose_listener.hpp
+[15.082s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//config
+[15.082s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//config/waypoint_params.yaml
+[15.082s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//launch
+[15.082s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//launch/launch.py
+[15.082s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/package_run_dependencies/group11_final
+[15.082s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/parent_prefix_path/group11_final
+[15.083s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.sh
+[15.083s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.dsv
+[15.083s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.sh
+[15.083s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.dsv
+[15.083s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.bash
+[15.083s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.sh
+[15.083s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.zsh
+[15.083s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.dsv
+[15.083s] -- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/package.dsv
+[15.083s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/packages/group11_final
+[15.084s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig.cmake
+[15.084s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig-version.cmake
+[15.084s] -- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/package.xml
+[15.086s] Invoked command in '/home/nitish/final_ws/build/group11_final' returned '0': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/nitish/final_ws/build/group11_final

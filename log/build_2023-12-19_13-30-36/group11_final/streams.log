@@ -1,0 +1,46 @@
+[0.324s] Invoking command in '/home/nitish/final_ws/build/group11_final': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12
+[0.402s] [35m[1mScanning dependencies of target part_pose_listener[0m
+[0.607s] [ 66%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o[0m
+[0.608s] [ 66%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/main.cpp.o[0m
+[3.792s] In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/main.cpp:1[m[K:
+[3.792s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:43:72:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::unordered_map<PartPoseListener::PartKey, geometry_msgs::msg::Pose_<std::allocator<void> >, PartPoseListener::PartKeyHash> PartPoseListener::part_poses_[m[K’
+[3.792s]    43 |     std::unordered_map<PartKey, geometry_msgs::msg::Pose, PartKeyHash> [01;31m[Kpart_poses_[m[K;
+[3.792s]       |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+[3.793s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:39:72:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::unordered_map<PartPoseListener::PartKey, geometry_msgs::msg::Pose_<std::allocator<void> >, PartPoseListener::PartKeyHash> PartPoseListener::part_poses_[m[K’
+[3.793s]    39 |     std::unordered_map<PartKey, geometry_msgs::msg::Pose, PartKeyHash> [01;36m[Kpart_poses_[m[K;
+[3.793s]       |                                                                        [01;36m[K^~~~~~~~~~~[m[K
+[3.806s] In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[3.806s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:43:72:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::unordered_map<PartPoseListener::PartKey, geometry_msgs::msg::Pose_<std::allocator<void> >, PartPoseListener::PartKeyHash> PartPoseListener::part_poses_[m[K’
+[3.806s]    43 |  std::unordered_map<PartKey, geometry_msgs::msg::Pose, PartKeyHash> [01;31m[Kpart_poses_[m[K;
+[3.806s]       |                                                                     [01;31m[K^~~~~~~~~~~[m[K
+[3.806s] 
+[3.807s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:39:72:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::unordered_map<PartPoseListener::PartKey, geometry_msgs::msg::Pose_<std::allocator<void> >, PartPoseListener::PartKeyHash> PartPoseListener::part_poses_[m[K’
+[3.807s]    39 |  std::unordered_map<PartKey, geometry_msgs::msg::Pose, PartKeyHash> [01;36m[Kpart_poses_[m[K;
+[3.807s]       |                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[3.807s] 
+[3.944s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:[m[K In constructor ‘[01m[KPartPoseListener::PartPoseListener()[m[K’:
+[3.944s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:60:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KPartPoseListener::tfListener[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[3.944s]    60 |     tf2_ros::TransformListener [01;35m[KtfListener[m[K;
+[3.944s]       |                                [01;35m[K^~~~~~~~~~[m[K
+[3.944s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:44:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klong int PartPoseListener::aruco_marker_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+[3.944s]    44 |     long [01;35m[Karuco_marker_id_[m[K; // Variable to store the ArUco marker ID
+[3.945s]       |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.945s] [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[3.945s]     3 | [01;35m[KPartPoseListener[m[K::PartPoseListener() : Node("part_pose_listener"),
+[3.945s]       | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.945s] In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[3.945s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:47:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KPartPoseListener::info_logged_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[3.945s]    47 |     bool [01;35m[Kinfo_logged_[m[K;
+[3.945s]       |          [01;35m[K^~~~~~~~~~~~[m[K
+[3.946s] [01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:40:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksize_t PartPoseListener::total_parts_to_detect[m[K’ [[01;35m[K-Wreorder[m[K]
+[3.946s]    40 |     size_t [01;35m[Ktotal_parts_to_detect[m[K;
+[3.946s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.946s] [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[3.946s]     3 | [01;35m[KPartPoseListener[m[K::PartPoseListener() : Node("part_pose_listener"),
+[3.946s]       | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.840s] make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:76: CMakeFiles/part_pose_listener.dir/src/main.cpp.o] Error 1
+[4.840s] make[2]: *** Waiting for unfinished jobs....
+[8.399s] make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1
+[8.400s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2
+[8.400s] make: *** [Makefile:141: all] Error 2
+[8.407s] Invoked command in '/home/nitish/final_ws/build/group11_final' returned '2': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12

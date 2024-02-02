@@ -1,0 +1,4 @@
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:76: CMakeFiles/part_pose_listener.dir/src/main.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

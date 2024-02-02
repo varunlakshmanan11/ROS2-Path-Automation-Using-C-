@@ -1,0 +1,2 @@
+Invoking command in '/home/nitish/final_ws/build/group11_final': /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12
+Invoked command in '/home/nitish/final_ws/build/group11_final' returned '2': /usr/bin/cmake --build /home/nitish/final_ws/build/group11_final -- -j12 -l12

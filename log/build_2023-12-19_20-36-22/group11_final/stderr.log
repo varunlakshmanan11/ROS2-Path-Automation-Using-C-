@@ -1,0 +1,35 @@
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/main.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:110:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+  110 |   void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:104:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+  104 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:110:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+  110 |   void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:104:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+  104 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:123:27:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+  123 |     std::vector<Waypoint> [01;31m[Kwaypoints_[m[K;
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:43:27:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+   43 |     std::vector<Waypoint> [01;36m[Kwaypoints_[m[K;
+      |                           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:123:27:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+  123 |     std::vector<Waypoint> [01;31m[Kwaypoints_[m[K;
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:43:27:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+   43 |     std::vector<Waypoint> [01;36m[Kwaypoints_[m[K;
+      |                           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:[m[K In member function ‘[01m[Kvoid PartPoseListener::feedback_callback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:398:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  398 |     [01;35m[Kconst std::shared_ptr<const NavigateToPose::Feedback> feedback[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:76: CMakeFiles/part_pose_listener.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

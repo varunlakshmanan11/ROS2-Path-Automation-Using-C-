@@ -1,0 +1,43 @@
+[1.842s] Invoking command in '/home/nitish/final_ws/src/ros2_aruco/ros2_aruco': PYTHONPATH=/home/nitish/final_ws/build/ros2_aruco/prefix_override:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/nitish/final_ws/build/ros2_aruco/build install --record /home/nitish/final_ws/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed
+[2.053s] running egg_info
+[2.053s] creating ../../../build/ros2_aruco/ros2_aruco.egg-info
+[2.054s] writing ../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[2.054s] writing dependency_links to ../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[2.054s] writing entry points to ../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[2.054s] writing requirements to ../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[2.055s] writing top-level names to ../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[2.056s] writing manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.096s] reading manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.098s] writing manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.098s] running build
+[2.098s] running build_py
+[2.099s] creating /home/nitish/final_ws/build/ros2_aruco/build
+[2.099s] creating /home/nitish/final_ws/build/ros2_aruco/build/lib
+[2.099s] creating /home/nitish/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[2.099s] copying ros2_aruco/__init__.py -> /home/nitish/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[2.099s] copying ros2_aruco/aruco_node.py -> /home/nitish/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[2.099s] copying ros2_aruco/transformations.py -> /home/nitish/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[2.099s] copying ros2_aruco/aruco_generate_marker.py -> /home/nitish/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[2.100s] running install
+[2.100s] running install_lib
+[2.102s] creating /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[2.102s] copying /home/nitish/final_ws/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[2.103s] copying /home/nitish/final_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[2.103s] copying /home/nitish/final_ws/build/ros2_aruco/build/lib/ros2_aruco/transformations.py -> /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[2.103s] copying /home/nitish/final_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[2.104s] byte-compiling /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/__init__.py to __init__.cpython-38.pyc
+[2.107s] byte-compiling /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-38.pyc
+[2.109s] byte-compiling /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/transformations.py to transformations.cpython-38.pyc
+[2.128s] byte-compiling /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-38.pyc
+[2.129s] running install_data
+[2.129s] creating /home/nitish/final_ws/install/ros2_aruco/share/ament_index
+[2.129s] creating /home/nitish/final_ws/install/ros2_aruco/share/ament_index/resource_index
+[2.130s] creating /home/nitish/final_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+[2.130s] copying resource/ros2_aruco -> /home/nitish/final_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+[2.130s] copying package.xml -> /home/nitish/final_ws/install/ros2_aruco/share/ros2_aruco
+[2.130s] running install_egg_info
+[2.132s] Copying ../../../build/ros2_aruco/ros2_aruco.egg-info to /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco-0.1.0-py3.8.egg-info
+[2.133s] running install_scripts
+[2.159s] Installing aruco_node script to /home/nitish/final_ws/install/ros2_aruco/lib/ros2_aruco
+[2.159s] writing list of installed files to '/home/nitish/final_ws/build/ros2_aruco/install.log'
+[2.186s] Invoked command in '/home/nitish/final_ws/src/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/nitish/final_ws/build/ros2_aruco/prefix_override:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/nitish/final_ws/build/ros2_aruco/build install --record /home/nitish/final_ws/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed

@@ -1,0 +1,863 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (mage_msgs) JobQueued: {'identifier': 'mage_msgs', 'dependencies': OrderedDict()}
+[0.000224] (ros2_aruco) JobQueued: {'identifier': 'ros2_aruco', 'dependencies': OrderedDict()}
+[0.000259] (ros2_aruco_interfaces) JobQueued: {'identifier': 'ros2_aruco_interfaces', 'dependencies': OrderedDict()}
+[0.000289] (final_project) JobQueued: {'identifier': 'final_project', 'dependencies': OrderedDict([('mage_msgs', '/home/nitish/final_ws/install/mage_msgs')])}
+[0.000323] (group11_final) JobQueued: {'identifier': 'group11_final', 'dependencies': OrderedDict([('mage_msgs', '/home/nitish/final_ws/install/mage_msgs'), ('ros2_aruco_interfaces', '/home/nitish/final_ws/install/ros2_aruco_interfaces')])}
+[0.000357] (mage_msgs) JobStarted: {'identifier': 'mage_msgs'}
+[0.099062] (-) TimerEvent: {}
+[0.199452] (-) TimerEvent: {}
+[0.228260] (ros2_aruco_interfaces) JobStarted: {'identifier': 'ros2_aruco_interfaces'}
+[0.301708] (-) TimerEvent: {}
+[0.403151] (-) TimerEvent: {}
+[0.459686] (ros2_aruco) JobStarted: {'identifier': 'ros2_aruco'}
+[0.505921] (-) TimerEvent: {}
+[0.607713] (-) TimerEvent: {}
+[0.708023] (-) TimerEvent: {}
+[0.765382] (mage_msgs) JobProgress: {'identifier': 'mage_msgs', 'progress': 'cmake'}
+[0.766655] (mage_msgs) JobProgress: {'identifier': 'mage_msgs', 'progress': 'build'}
+[0.768077] (mage_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nitish/final_ws/build/mage_msgs', '--', '-j12', '-l12'], 'cwd': '/home/nitish/final_ws/build/mage_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1453'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12582'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:46201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'af2be3d1523e441e925b2096904c604b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/mage_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.774842] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'cmake'}
+[0.776054] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'build'}
+[0.778195] (ros2_aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nitish/final_ws/build/ros2_aruco_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/nitish/final_ws/build/ros2_aruco_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1453'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12582'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:46201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'af2be3d1523e441e925b2096904c604b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/ros2_aruco_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.808167] (-) TimerEvent: {}
+[0.908553] (-) TimerEvent: {}
+[1.008842] (-) TimerEvent: {}
+[1.109180] (-) TimerEvent: {}
+[1.210653] (-) TimerEvent: {}
+[1.314244] (-) TimerEvent: {}
+[1.354102] (mage_msgs) StdoutLine: {'line': b'[  1%] Built target mage_msgs__cpp\n'}
+[1.354586] (mage_msgs) StdoutLine: {'line': b'[ 12%] Built target mage_msgs__rosidl_generator_c\n'}
+[1.354895] (mage_msgs) StdoutLine: {'line': b'[ 23%] Built target mage_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.355265] (mage_msgs) StdoutLine: {'line': b'[ 35%] Built target mage_msgs__rosidl_typesupport_cpp\n'}
+[1.359463] (mage_msgs) StdoutLine: {'line': b'[ 46%] Built target mage_msgs__rosidl_typesupport_c\n'}
+[1.360124] (mage_msgs) StdoutLine: {'line': b'[ 57%] Built target mage_msgs__rosidl_typesupport_introspection_c\n'}
+[1.360393] (mage_msgs) StdoutLine: {'line': b'[ 69%] Built target mage_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.360567] (mage_msgs) StdoutLine: {'line': b'[ 80%] Built target mage_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.361381] (mage_msgs) StdoutLine: {'line': b'[ 80%] Built target mage_msgs\n'}
+[1.362548] (mage_msgs) StdoutLine: {'line': b'[ 81%] Built target mage_msgs__py\n'}
+[1.364729] (mage_msgs) StdoutLine: {'line': b'[ 91%] Built target mage_msgs__python\n'}
+[1.364881] (mage_msgs) StdoutLine: {'line': b'[ 94%] Built target mage_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.365512] (mage_msgs) StdoutLine: {'line': b'[ 97%] Built target mage_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.365762] (mage_msgs) StdoutLine: {'line': b'[100%] Built target mage_msgs__rosidl_typesupport_c__pyext\n'}
+[1.367408] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  3%] Built target ros2_aruco_interfaces__cpp\n'}
+[1.367824] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 12%] Built target ros2_aruco_interfaces__rosidl_generator_c\n'}
+[1.368004] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 22%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.368614] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 32%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp\n'}
+[1.369214] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 45%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.370017] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 51%] Built target ros2_aruco_interfaces__rosidl_typesupport_c\n'}
+[1.372316] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 61%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.373096] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.374754] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 70%] Built target ros2_aruco_interfaces\n'}
+[1.374981] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 74%] Built target ros2_aruco_interfaces__py\n'}
+[1.375174] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 80%] Built target ros2_aruco_interfaces__python\n'}
+[1.375359] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.375562] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.375746] (ros2_aruco_interfaces) StdoutLine: {'line': b'[100%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.375945] (mage_msgs) CommandEnded: {'returncode': 0}
+[1.377002] (ros2_aruco_interfaces) CommandEnded: {'returncode': 0}
+[1.414352] (-) TimerEvent: {}
+[1.428178] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'install'}
+[1.438350] (ros2_aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nitish/final_ws/build/ros2_aruco_interfaces'], 'cwd': '/home/nitish/final_ws/build/ros2_aruco_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1453'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12582'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:46201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'af2be3d1523e441e925b2096904c604b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/ros2_aruco_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.449944] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.450328] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces\n'}
+[1.450573] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces\n'}
+[1.450681] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg\n'}
+[1.450808] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/aruco_markers.h\n'}
+[1.450908] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.451010] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail\n'}
+[1.451156] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.h\n'}
+[1.451287] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h\n'}
+[1.451498] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c\n'}
+[1.451721] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h\n'}
+[1.451906] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.sh\n'}
+[1.451979] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.dsv\n'}
+[1.452066] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so\n'}
+[1.452259] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces\n'}
+[1.452502] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg\n'}
+[1.452646] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.452802] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail\n'}
+[1.452888] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h\n'}
+[1.452975] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.453095] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces\n'}
+[1.453388] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg\n'}
+[1.453446] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.453503] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail\n'}
+[1.453637] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.453696] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/dds_fastrtps\n'}
+[1.453752] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.453815] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces\n'}
+[1.453890] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg\n'}
+[1.454012] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.454172] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail\n'}
+[1.454288] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h\n'}
+[1.454346] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c\n'}
+[1.454407] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.454464] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so\n'}
+[1.454550] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces\n'}
+[1.454640] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg\n'}
+[1.454783] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/aruco_markers.hpp\n'}
+[1.454853] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail\n'}
+[1.454911] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__traits.hpp\n'}
+[1.454968] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp\n'}
+[1.455024] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.hpp\n'}
+[1.455154] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces\n'}
+[1.455331] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg\n'}
+[1.455416] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail\n'}
+[1.455615] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp\n'}
+[1.455706] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.455790] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.455916] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.456004] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.sh\n'}
+[1.456409] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.dsv\n'}
+[1.456558] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/__init__.py\n'}
+[1.490101] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/msg\n'}
+[1.490296] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/msg/_aruco_markers_s.c\n'}
+[1.490422] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/msg/__init__.py\n'}
+[1.490631] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/msg/_aruco_markers.py\n'}
+[1.490870] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.491245] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.492204] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.492707] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__python.so\n'}
+[1.492911] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.idl\n'}
+[1.493249] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.msg\n'}
+[1.493380] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces\n'}
+[1.493477] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces\n'}
+[1.493614] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.sh\n'}
+[1.493690] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.493750] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.sh\n'}
+[1.493823] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.dsv\n'}
+[1.493904] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.bash\n'}
+[1.493960] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.sh\n'}
+[1.494040] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.zsh\n'}
+[1.494156] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.dsv\n'}
+[1.494231] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv\n'}
+[1.494306] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/packages/ros2_aruco_interfaces\n'}
+[1.494424] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.494502] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.494587] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.494687] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.494768] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.494867] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.495303] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.498170] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.498708] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.499641] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.500330] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.500410] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.500480] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.500597] (mage_msgs) JobProgress: {'identifier': 'mage_msgs', 'progress': 'install'}
+[1.500645] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.500744] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.500843] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.500931] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.501016] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.501135] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig.cmake\n'}
+[1.501221] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig-version.cmake\n'}
+[1.501309] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.xml\n'}
+[1.501402] (mage_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nitish/final_ws/build/mage_msgs'], 'cwd': '/home/nitish/final_ws/build/mage_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1453'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12582'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:46201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'af2be3d1523e441e925b2096904c604b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/mage_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.501832] (ros2_aruco_interfaces) CommandEnded: {'returncode': 0}
+[1.506988] (mage_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.508868] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/ament_index/resource_index/rosidl_interfaces/mage_msgs\n'}
+[1.509315] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs\n'}
+[1.509425] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg\n'}
+[1.509903] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/sensors.h\n'}
+[1.510025] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/marker.h\n'}
+[1.510137] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/marker_array.h\n'}
+[1.510638] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/advanced_logical_camera_image.h\n'}
+[1.510850] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.511316] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail\n'}
+[1.512054] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__struct.h\n'}
+[1.513403] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__functions.h\n'}
+[1.514177] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__functions.c\n'}
+[1.515509] (-) TimerEvent: {}
+[1.516141] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__functions.h\n'}
+[1.516533] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__functions.h\n'}
+[1.516907] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__struct.h\n'}
+[1.517304] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__functions.h\n'}
+[1.518078] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__type_support.h\n'}
+[1.518514] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__type_support.h\n'}
+[1.519375] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__type_support.h\n'}
+[1.519726] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__struct.h\n'}
+[1.520299] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__functions.h\n'}
+[1.520602] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__struct.h\n'}
+[1.520918] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__type_support.h\n'}
+[1.521210] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__type_support.h\n'}
+[1.521356] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__functions.c\n'}
+[1.521879] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__functions.c\n'}
+[1.522256] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__type_support.h\n'}
+[1.522586] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__functions.c\n'}
+[1.523120] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__struct.h\n'}
+[1.523268] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__functions.c\n'}
+[1.525005] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__functions.c\n'}
+[1.525666] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__functions.h\n'}
+[1.526051] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__struct.h\n'}
+[1.526345] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/part_pose.h\n'}
+[1.526625] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/part.h\n'}
+[1.528582] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/environment/library_path.sh\n'}
+[1.529006] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/environment/library_path.dsv\n'}
+[1.529295] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/libmage_msgs__rosidl_generator_c.so\n'}
+[1.529754] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs\n'}
+[1.530011] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg\n'}
+[1.530377] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.531286] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail\n'}
+[1.532192] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__rosidl_typesupport_fastrtps_c.h\n'}
+[1.532421] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.532688] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__rosidl_typesupport_fastrtps_c.h\n'}
+[1.533003] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h\n'}
+[1.535279] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__rosidl_typesupport_fastrtps_c.h\n'}
+[1.535376] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h\n'}
+[1.535501] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/libmage_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.535605] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs\n'}
+[1.535688] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg\n'}
+[1.535780] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.536053] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail\n'}
+[1.536679] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.537019] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.537107] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/dds_fastrtps\n'}
+[1.537173] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.537238] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.537324] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.537417] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.537507] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/libmage_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.537600] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs\n'}
+[1.537694] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg\n'}
+[1.537782] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.537870] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail\n'}
+[1.537960] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__type_support.c\n'}
+[1.538050] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__type_support.c\n'}
+[1.538134] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h\n'}
+[1.538236] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__type_support.c\n'}
+[1.538717] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__rosidl_typesupport_introspection_c.h\n'}
+[1.539622] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__type_support.c\n'}
+[1.540039] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__type_support.c\n'}
+[1.540691] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h\n'}
+[1.541180] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__rosidl_typesupport_introspection_c.h\n'}
+[1.541386] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__rosidl_typesupport_introspection_c.h\n'}
+[1.541887] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__type_support.c\n'}
+[1.542260] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__rosidl_typesupport_introspection_c.h\n'}
+[1.543289] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/libmage_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.544124] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/libmage_msgs__rosidl_typesupport_c.so\n'}
+[1.545893] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs\n'}
+[1.546312] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg\n'}
+[1.546747] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/part.hpp\n'}
+[1.548647] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/marker_array.hpp\n'}
+[1.549158] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/sensors.hpp\n'}
+[1.549411] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/marker.hpp\n'}
+[1.549621] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/part_pose.hpp\n'}
+[1.549989] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail\n'}
+[1.550268] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__builder.hpp\n'}
+[1.551420] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__struct.hpp\n'}
+[1.552074] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__traits.hpp\n'}
+[1.553076] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__struct.hpp\n'}
+[1.553885] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__struct.hpp\n'}
+[1.554382] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__traits.hpp\n'}
+[1.554959] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__traits.hpp\n'}
+[1.555379] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__struct.hpp\n'}
+[1.555948] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__builder.hpp\n'}
+[1.558524] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__struct.hpp\n'}
+[1.558952] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__builder.hpp\n'}
+[1.560126] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__builder.hpp\n'}
+[1.560689] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__struct.hpp\n'}
+[1.568248] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__builder.hpp\n'}
+[1.571641] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__traits.hpp\n'}
+[1.572126] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__traits.hpp\n'}
+[1.572492] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__builder.hpp\n'}
+[1.573339] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__traits.hpp\n'}
+[1.573455] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/advanced_logical_camera_image.hpp\n'}
+[1.573670] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs\n'}
+[1.573842] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg\n'}
+[1.573948] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail\n'}
+[1.574271] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__type_support.cpp\n'}
+[1.574380] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__type_support.cpp\n'}
+[1.574621] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.574783] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.574887] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/advanced_logical_camera_image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575207] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575520] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/sensors__type_support.cpp\n'}
+[1.575737] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.575931] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.576047] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part_pose__type_support.cpp\n'}
+[1.576271] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/part__type_support.cpp\n'}
+[1.576461] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/include/mage_msgs/msg/detail/marker_array__type_support.cpp\n'}
+[1.576567] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/libmage_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.576753] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/libmage_msgs__rosidl_typesupport_cpp.so\n'}
+[1.577087] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/environment/pythonpath.sh\n'}
+[1.577326] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/environment/pythonpath.dsv\n'}
+[1.577511] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/__init__.py\n'}
+[1.577710] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg\n'}
+[1.577882] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_advanced_logical_camera_image_s.c\n'}
+[1.578101] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/__init__.py\n'}
+[1.578224] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_part_s.c\n'}
+[1.579149] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_marker_s.c\n'}
+[1.579266] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_marker_array.py\n'}
+[1.579491] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_sensors_s.c\n'}
+[1.579740] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_marker_array_s.c\n'}
+[1.579858] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_marker.py\n'}
+[1.579989] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_part_pose_s.c\n'}
+[1.580187] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_sensors.py\n'}
+[1.580375] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_part_pose.py\n'}
+[1.580635] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_advanced_logical_camera_image.py\n'}
+[1.580786] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/msg/_part.py\n'}
+[1.580929] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/mage_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.581070] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/mage_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.581233] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages/mage_msgs/mage_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.581372] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/lib/libmage_msgs__python.so\n'}
+[1.581518] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/AdvancedLogicalCameraImage.idl\n'}
+[1.581653] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/Part.idl\n'}
+[1.581783] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/PartPose.idl\n'}
+[1.581916] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/Sensors.idl\n'}
+[1.582047] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/Marker.idl\n'}
+[1.582172] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/MarkerArray.idl\n'}
+[1.582310] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/AdvancedLogicalCameraImage.msg\n'}
+[1.582456] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/Part.msg\n'}
+[1.582581] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/PartPose.msg\n'}
+[1.582710] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/Sensors.msg\n'}
+[1.582846] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/Marker.msg\n'}
+[1.582984] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/msg/MarkerArray.msg\n'}
+[1.583112] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/ament_index/resource_index/package_run_dependencies/mage_msgs\n'}
+[1.583245] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/ament_index/resource_index/parent_prefix_path/mage_msgs\n'}
+[1.583374] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/environment/ament_prefix_path.sh\n'}
+[1.583505] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/environment/ament_prefix_path.dsv\n'}
+[1.583644] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/environment/path.sh\n'}
+[1.583777] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/environment/path.dsv\n'}
+[1.584047] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/local_setup.bash\n'}
+[1.584142] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/local_setup.sh\n'}
+[1.584235] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/local_setup.zsh\n'}
+[1.584322] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/local_setup.dsv\n'}
+[1.584408] (mage_msgs) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/package.dsv\n'}
+[1.584501] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/ament_index/resource_index/packages/mage_msgs\n'}
+[1.584608] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_generator_cExport.cmake\n'}
+[1.584746] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.584883] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.585001] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.585120] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.585244] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.585369] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.585509] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.585632] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.585757] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.585875] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.585988] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.586107] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.586243] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.586399] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.586513] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.586642] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.586791] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.586906] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgsConfig.cmake\n'}
+[1.586996] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake/mage_msgsConfig-version.cmake\n'}
+[1.587084] (mage_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/mage_msgs/share/mage_msgs/package.xml\n'}
+[1.615717] (-) TimerEvent: {}
+[1.716238] (-) TimerEvent: {}
+[1.818633] (-) TimerEvent: {}
+[1.910265] (ros2_aruco) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ros2_aruco', 'build', '--build-base', '/home/nitish/final_ws/build/ros2_aruco/build', 'install', '--record', '/home/nitish/final_ws/build/ros2_aruco/install.log', '--install-scripts', '$base/lib/ros2_aruco', '--single-version-externally-managed'], 'cwd': '/home/nitish/final_ws/src/ros2_aruco/ros2_aruco', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nitish', 'SSH_AGENT_PID': '1453', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/nitish', 'OLDPWD': '/home/nitish', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1196', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '12582', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'nitish', 'JOURNAL_STREAM': '8:46201', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nitish', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/galactic/share/turtlebot3_gazebo/models/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508', 'INVOCATION_ID': 'af2be3d1523e441e925b2096904c604b', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nitish/final_ws/build/ros2_aruco', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nitish/final_ws/build/ros2_aruco/prefix_override:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.914151] (mage_msgs) CommandEnded: {'returncode': 0}
+[1.918774] (-) TimerEvent: {}
+[2.020261] (-) TimerEvent: {}
+[2.121764] (-) TimerEvent: {}
+[2.206693] (ros2_aruco) StdoutLine: {'line': b'running egg_info\n'}
+[2.208347] (ros2_aruco) StdoutLine: {'line': b'writing ../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO\n'}
+[2.208583] (ros2_aruco) StdoutLine: {'line': b'writing dependency_links to ../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt\n'}
+[2.209838] (ros2_aruco) StdoutLine: {'line': b'writing entry points to ../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt\n'}
+[2.210321] (ros2_aruco) StdoutLine: {'line': b'writing requirements to ../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt\n'}
+[2.210854] (ros2_aruco) StdoutLine: {'line': b'writing top-level names to ../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt\n'}
+[2.222032] (-) TimerEvent: {}
+[2.238680] (ros2_aruco) StdoutLine: {'line': b"reading manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[2.239676] (ros2_aruco) StdoutLine: {'line': b"writing manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[2.239967] (ros2_aruco) StdoutLine: {'line': b'running build\n'}
+[2.240542] (ros2_aruco) StdoutLine: {'line': b'running build_py\n'}
+[2.240893] (ros2_aruco) StdoutLine: {'line': b'running install\n'}
+[2.242611] (ros2_aruco) StdoutLine: {'line': b'running install_lib\n'}
+[2.243352] (ros2_aruco) StdoutLine: {'line': b'running install_data\n'}
+[2.244002] (ros2_aruco) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.244100] (ros2_aruco) StdoutLine: {'line': b"removing '/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco-0.1.0-py3.8.egg-info' (and everything under it)\n"}
+[2.245494] (ros2_aruco) StdoutLine: {'line': b'Copying ../../../build/ros2_aruco/ros2_aruco.egg-info to /home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco-0.1.0-py3.8.egg-info\n'}
+[2.245766] (ros2_aruco) StdoutLine: {'line': b'running install_scripts\n'}
+[2.260569] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_node script to /home/nitish/final_ws/install/ros2_aruco/lib/ros2_aruco\n'}
+[2.261752] (ros2_aruco) StdoutLine: {'line': b"writing list of installed files to '/home/nitish/final_ws/build/ros2_aruco/install.log'\n"}
+[2.323258] (-) TimerEvent: {}
+[2.424899] (-) TimerEvent: {}
+[2.526774] (-) TimerEvent: {}
+[2.607411] (ros2_aruco_interfaces) JobEnded: {'identifier': 'ros2_aruco_interfaces', 'rc': 0}
+[2.627057] (-) TimerEvent: {}
+[2.731250] (-) TimerEvent: {}
+[2.832591] (-) TimerEvent: {}
+[2.933168] (-) TimerEvent: {}
+[3.035468] (-) TimerEvent: {}
+[3.053524] (mage_msgs) JobEnded: {'identifier': 'mage_msgs', 'rc': 0}
+[3.053994] (final_project) JobStarted: {'identifier': 'final_project'}
+[3.135849] (-) TimerEvent: {}
+[3.238452] (-) TimerEvent: {}
+[3.276685] (group11_final) JobStarted: {'identifier': 'group11_final'}
+[3.338988] (-) TimerEvent: {}
+[3.440059] (-) TimerEvent: {}
+[3.501518] (ros2_aruco) CommandEnded: {'returncode': 0}
+[3.540882] (-) TimerEvent: {}
+[3.641277] (-) TimerEvent: {}
+[3.728594] (ros2_aruco) JobEnded: {'identifier': 'ros2_aruco', 'rc': 0}
+[3.731151] (final_project) JobProgress: {'identifier': 'final_project', 'progress': 'cmake'}
+[3.732601] (final_project) JobProgress: {'identifier': 'final_project', 'progress': 'build'}
+[3.735216] (final_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nitish/final_ws/build/final_project', '--', '-j12', '-l12'], 'cwd': '/home/nitish/final_ws/build/final_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1453'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/mage_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12582'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:46201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'af2be3d1523e441e925b2096904c604b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/final_project'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic')]), 'shell': False}
+[3.740974] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'cmake'}
+[3.741047] (group11_final) Command: {'cmd': ['/usr/bin/cmake', '/home/nitish/final_ws/src/group11_final', '-DCMAKE_INSTALL_PREFIX=/home/nitish/final_ws/install/group11_final'], 'cwd': '/home/nitish/final_ws/build/group11_final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1453'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12582'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:46201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'af2be3d1523e441e925b2096904c604b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/group11_final'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic')]), 'shell': False}
+[3.743310] (-) TimerEvent: {}
+[3.824363] (group11_final) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.829855] (final_project) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_final_project\n'}
+[3.841389] (final_project) StdoutLine: {'line': b'[ 50%] Built target disable_shadows_plugin\n'}
+[3.843418] (-) TimerEvent: {}
+[3.852617] (final_project) StdoutLine: {'line': b'[100%] Built target AriacLogicalCameraPlugin\n'}
+[3.882463] (group11_final) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.886556] (group11_final) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.943584] (-) TimerEvent: {}
+[3.971042] (group11_final) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.971910] (group11_final) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.034065] (group11_final) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.043702] (-) TimerEvent: {}
+[4.044704] (group11_final) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.045059] (group11_final) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.047323] (group11_final) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.065267] (final_project) StdoutLine: {'line': b'running install_scripts\n'}
+[4.065848] (final_project) StdoutLine: {'line': b'running egg_info\n'}
+[4.066652] (final_project) StdoutLine: {'line': b'writing final_project.egg-info/PKG-INFO\n'}
+[4.066825] (final_project) StdoutLine: {'line': b'writing dependency_links to final_project.egg-info/dependency_links.txt\n'}
+[4.067031] (final_project) StdoutLine: {'line': b'writing top-level names to final_project.egg-info/top_level.txt\n'}
+[4.085213] (final_project) StdoutLine: {'line': b'running egg_info\n'}
+[4.086093] (final_project) StdoutLine: {'line': b'writing final_project.egg-info/PKG-INFO\n'}
+[4.086307] (final_project) StdoutLine: {'line': b'writing dependency_links to final_project.egg-info/dependency_links.txt\n'}
+[4.086476] (final_project) StdoutLine: {'line': b'writing top-level names to final_project.egg-info/top_level.txt\n'}
+[4.097969] (final_project) StdoutLine: {'line': b"reading manifest file 'final_project.egg-info/SOURCES.txt'\n"}
+[4.098491] (final_project) StdoutLine: {'line': b"writing manifest file 'final_project.egg-info/SOURCES.txt'\n"}
+[4.116323] (final_project) StdoutLine: {'line': b"reading manifest file 'final_project.egg-info/SOURCES.txt'\n"}
+[4.117048] (final_project) StdoutLine: {'line': b"writing manifest file 'final_project.egg-info/SOURCES.txt'\n"}
+[4.121349] (group11_final) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.121580] (final_project) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_final_project_egg\n'}
+[4.122862] (group11_final) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.143808] (-) TimerEvent: {}
+[4.152731] (final_project) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_final_project_scripts\n'}
+[4.176312] (final_project) CommandEnded: {'returncode': 0}
+[4.208091] (final_project) JobProgress: {'identifier': 'final_project', 'progress': 'install'}
+[4.210406] (final_project) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nitish/final_ws/build/final_project'], 'cwd': '/home/nitish/final_ws/build/final_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1453'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/mage_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12582'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:46201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'af2be3d1523e441e925b2096904c604b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/final_project'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic')]), 'shell': False}
+[4.222803] (final_project) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.223388] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/library_path.sh\n'}
+[4.223542] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/library_path.dsv\n'}
+[4.223659] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/include\n'}
+[4.223767] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/include/final_project\n'}
+[4.223881] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/include/final_project/ariac_logical_camera_plugin.hpp\n'}
+[4.224125] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/include/final_project/disable_shadows_plugin.hpp\n'}
+[4.224248] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/libAriacLogicalCameraPlugin.so\n'}
+[4.224854] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/libdisable_shadows_plugin.so\n'}
+[4.225373] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//config\n'}
+[4.225805] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//config/sensors.yaml\n'}
+[4.225996] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//config/waypoint_params.yaml\n'}
+[4.226191] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//launch\n'}
+[4.226307] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//launch/robot_state_publisher.launch.py\n'}
+[4.226421] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//launch/spawn_turtlebot3.launch.py\n'}
+[4.226534] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//launch/final_project.launch.py\n'}
+[4.226736] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models\n'}
+[4.226853] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1\n'}
+[4.226964] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/model.config\n'}
+[4.227073] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/model.sdf\n'}
+[4.227361] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials\n'}
+[4.227502] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/scripts\n'}
+[4.227830] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/scripts/marker.material\n'}
+[4.228150] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures\n'}
+[4.228405] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/5x5_1000-1.svg\n'}
+[4.228647] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/svgtopng.zip\n'}
+[4.228919] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/5x5_1000-1.png\n'}
+[4.229131] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/marker_1.png\n'}
+[4.229382] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor\n'}
+[4.229771] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes\n'}
+[4.229964] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/Suede_Blue.jpg\n'}
+[4.230115] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/floor.dae\n'}
+[4.230246] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/Suede_Blue_1.jpg\n'}
+[4.230406] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/example-2.png\n'}
+[4.230511] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/model.config\n'}
+[4.230638] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/model.sdf\n'}
+[4.230739] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets\n'}
+[4.230870] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes\n'}
+[4.230971] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/box_pallet.dae\n'}
+[4.231097] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/AM200_029_02_Diffuse.jpg\n'}
+[4.231198] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/AM200_029_01_Diffuse.jpg\n'}
+[4.231333] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/AM200_029_07_Diffuse.jpg\n'}
+[4.231476] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/model.config\n'}
+[4.231592] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/model.sdf\n'}
+[4.231773] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3\n'}
+[4.231873] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes\n'}
+[4.231973] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/box_pallet.dae\n'}
+[4.232073] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_08_Diffuse.jpg\n'}
+[4.232173] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_04_Diffuse.jpg\n'}
+[4.232279] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_01_Diffuse.jpg\n'}
+[4.232380] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_03_Diffuse.jpg\n'}
+[4.232479] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/model.config\n'}
+[4.232578] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/model.sdf\n'}
+[4.232676] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2\n'}
+[4.232774] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/model.config\n'}
+[4.232879] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/model.sdf\n'}
+[4.232977] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials\n'}
+[4.233074] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/scripts\n'}
+[4.233173] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/scripts/marker.material\n'}
+[4.233271] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures\n'}
+[4.233370] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/5x5_1000-2.png\n'}
+[4.233469] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/marker_2.png\n'}
+[4.233568] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/5x5_1000-2.svg\n'}
+[4.233669] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/svgtopng.zip\n'}
+[4.233768] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0\n'}
+[4.233880] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/model.config\n'}
+[4.233981] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/model.sdf\n'}
+[4.234080] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials\n'}
+[4.234180] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/scripts\n'}
+[4.234280] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/scripts/marker.material\n'}
+[4.234380] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures\n'}
+[4.234478] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/5x5_1000-0.svg\n'}
+[4.234576] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/marker_0_old.png\n'}
+[4.234674] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/svgtopng.zip\n'}
+[4.234772] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/5x5_1000-0.png\n'}
+[4.234871] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery\n'}
+[4.234970] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes\n'}
+[4.235068] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_base.stl\n'}
+[4.235175] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_cap.stl\n'}
+[4.235274] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_collision.stl\n'}
+[4.235378] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_pins.stl\n'}
+[4.235496] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/model.config\n'}
+[4.235601] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/model.sdf\n'}
+[4.235700] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera\n'}
+[4.235801] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/meshes\n'}
+[4.235902] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/meshes/camera.dae\n'}
+[4.236003] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/model.config\n'}
+[4.236102] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/model.sdf\n'}
+[4.236201] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/materials\n'}
+[4.236299] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/materials/textures\n'}
+[4.236397] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/materials/textures/camera.png\n'}
+[4.236496] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin\n'}
+[4.236596] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes\n'}
+[4.236695] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/bin_interior.stl\n'}
+[4.236794] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/bin_exterior.dae\n'}
+[4.236893] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/Steel_Brushed_Stainless.jpg.001.jpg\n'}
+[4.236993] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/bin_exterior.stl\n'}
+[4.237092] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/Metal_Rough.jpg.001.jpg\n'}
+[4.237190] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/model.config\n'}
+[4.237302] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/model.sdf\n'}
+[4.237402] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2\n'}
+[4.237501] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes\n'}
+[4.237607] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/box_pallet.dae\n'}
+[4.237707] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/AM200_029_06_Diffuse.jpg\n'}
+[4.237807] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/AM200_029_01_Diffuse.jpg\n'}
+[4.237905] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/AM200_029_05_Diffuse.jpg\n'}
+[4.238004] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/model.config\n'}
+[4.238105] (group11_final) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.238226] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/model.sdf\n'}
+[4.238328] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle\n'}
+[4.238427] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[4.238527] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle/model.config\n'}
+[4.238626] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle/model.sdf\n'}
+[4.238735] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//worlds\n'}
+[4.238834] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//worlds/final.world\n'}
+[4.238932] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//maps\n'}
+[4.239030] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//maps/final2_map.pgm\n'}
+[4.239129] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//maps/final2_map.yaml\n'}
+[4.239228] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/pythonpath.sh\n'}
+[4.239328] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/pythonpath.dsv\n'}
+[4.239427] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info\n'}
+[4.239579] (final_project) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/dependency_links.txt\n'}
+[4.239683] (final_project) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/SOURCES.txt\n'}
+[4.239784] (final_project) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/top_level.txt\n'}
+[4.239883] (final_project) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/PKG-INFO\n'}
+[4.239983] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/\n'}
+[4.240083] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project\n'}
+[4.240195] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/tf_broadcaster.py\n'}
+[4.240295] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/__init__.py\n'}
+[4.240395] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/utilities.py\n'}
+[4.240494] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/spawn_params.py\n'}
+[4.240593] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/tf2_geometry_msgs.py\n'}
+[4.240694] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/environment_startup.py\n'}
+[4.243874] (-) TimerEvent: {}
+[4.248235] (group11_final) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.249069] (group11_final) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.252646] (group11_final) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[4.269352] (final_project) StdoutLine: {'line': b"Listing '/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project'...\n"}
+[4.272659] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/environment_startup_node.py\n'}
+[4.272935] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/sensor_tf_broadcaster.py\n'}
+[4.273112] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/part_spawner.py\n'}
+[4.273305] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/object_tf_broadcaster.py\n'}
+[4.273492] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project\n'}
+[4.273633] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project\n'}
+[4.273769] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/ament_prefix_path.sh\n'}
+[4.273944] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/ament_prefix_path.dsv\n'}
+[4.274084] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/path.sh\n'}
+[4.274194] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/path.dsv\n'}
+[4.274318] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.bash\n'}
+[4.274454] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.sh\n'}
+[4.274562] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.zsh\n'}
+[4.274674] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.dsv\n'}
+[4.274792] (final_project) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/final_project/share/final_project/package.dsv\n'}
+[4.274905] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/ament_index/resource_index/packages/final_project\n'}
+[4.275011] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.275130] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/cmake/final_projectConfig.cmake\n'}
+[4.275434] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake\n'}
+[4.275751] (final_project) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/package.xml\n'}
+[4.276226] (final_project) CommandEnded: {'returncode': 0}
+[4.279728] (group11_final) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.280022] (group11_final) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.344117] (-) TimerEvent: {}
+[4.384600] (group11_final) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[4.448074] (-) TimerEvent: {}
+[4.467897] (group11_final) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.477776] (group11_final) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[4.549213] (-) TimerEvent: {}
+[4.618699] (group11_final) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.650462] (-) TimerEvent: {}
+[4.657129] (group11_final) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[4.751285] (-) TimerEvent: {}
+[4.754698] (group11_final) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.832785] (group11_final) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[4.837954] (group11_final) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[4.851410] (-) TimerEvent: {}
+[4.858828] (group11_final) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.859089] (group11_final) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.952543] (-) TimerEvent: {}
+[4.968799] (group11_final) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.972622] (group11_final) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.036855] (final_project) JobEnded: {'identifier': 'final_project', 'rc': 0}
+[5.050436] (group11_final) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[5.050734] (group11_final) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.052621] (-) TimerEvent: {}
+[5.138666] (group11_final) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.139104] (group11_final) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.152745] (-) TimerEvent: {}
+[5.246428] (group11_final) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.248036] (group11_final) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.252831] (-) TimerEvent: {}
+[5.353159] (-) TimerEvent: {}
+[5.453542] (-) TimerEvent: {}
+[5.553931] (-) TimerEvent: {}
+[5.581785] (group11_final) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)\n'}
+[5.654081] (-) TimerEvent: {}
+[5.754467] (-) TimerEvent: {}
+[5.854799] (-) TimerEvent: {}
+[5.955140] (-) TimerEvent: {}
+[6.055536] (-) TimerEvent: {}
+[6.155911] (-) TimerEvent: {}
+[6.189312] (group11_final) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)\n'}
+[6.203483] (group11_final) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)\n'}
+[6.208821] (group11_final) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[6.249810] (group11_final) StdoutLine: {'line': b'-- Found ros2_aruco_interfaces: 0.1.0 (/home/nitish/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake)\n'}
+[6.256020] (-) TimerEvent: {}
+[6.353725] (group11_final) StdoutLine: {'line': b'-- Found mage_msgs: 0.0.0 (/home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake)\n'}
+[6.356136] (-) TimerEvent: {}
+[6.456470] (-) TimerEvent: {}
+[6.472617] (group11_final) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[6.556606] (-) TimerEvent: {}
+[6.656970] (-) TimerEvent: {}
+[6.689853] (group11_final) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.704185] (group11_final) StdoutLine: {'line': b'-- Generating done\n'}
+[6.705916] (group11_final) StdoutLine: {'line': b'-- Build files have been written to: /home/nitish/final_ws/build/group11_final\n'}
+[6.715658] (group11_final) CommandEnded: {'returncode': 0}
+[6.716525] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'build'}
+[6.718609] (group11_final) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nitish/final_ws/build/group11_final', '--', '-j12', '-l12'], 'cwd': '/home/nitish/final_ws/build/group11_final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1453'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12582'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:46201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'af2be3d1523e441e925b2096904c604b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/group11_final'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic')]), 'shell': False}
+[6.757129] (-) TimerEvent: {}
+[6.784334] (group11_final) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target part_pose_listener\x1b[0m\n'}
+[6.857253] (-) TimerEvent: {}
+[6.872001] (group11_final) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o\x1b[0m\n'}
+[6.872160] (group11_final) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/main.cpp.o\x1b[0m\n'}
+[6.957379] (-) TimerEvent: {}
+[7.057654] (-) TimerEvent: {}
+[7.158025] (-) TimerEvent: {}
+[7.258415] (-) TimerEvent: {}
+[7.358785] (-) TimerEvent: {}
+[7.459157] (-) TimerEvent: {}
+[7.559534] (-) TimerEvent: {}
+[7.659866] (-) TimerEvent: {}
+[7.760208] (-) TimerEvent: {}
+[7.860550] (-) TimerEvent: {}
+[7.960891] (-) TimerEvent: {}
+[8.061238] (-) TimerEvent: {}
+[8.161593] (-) TimerEvent: {}
+[8.261941] (-) TimerEvent: {}
+[8.362291] (-) TimerEvent: {}
+[8.462638] (-) TimerEvent: {}
+[8.562979] (-) TimerEvent: {}
+[8.663321] (-) TimerEvent: {}
+[8.763651] (-) TimerEvent: {}
+[9.017614] (-) TimerEvent: {}
+[9.117964] (-) TimerEvent: {}
+[9.218317] (-) TimerEvent: {}
+[9.318667] (-) TimerEvent: {}
+[9.419013] (-) TimerEvent: {}
+[9.519374] (-) TimerEvent: {}
+[9.619701] (-) TimerEvent: {}
+[9.720052] (-) TimerEvent: {}
+[9.820407] (-) TimerEvent: {}
+[9.920759] (-) TimerEvent: {}
+[10.021114] (-) TimerEvent: {}
+[10.043408] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1\x1b[m\x1b[K:\n'}
+[10.043696] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPartPoseListener::PartPoseListener()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.043823] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:30:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPartPoseListener::tfListener\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[10.043942] (group11_final) StderrLine: {'line': b'   30 |     tf2_ros::TransformListener \x1b[01;35m\x1b[KtfListener\x1b[m\x1b[K;\n'}
+[10.044057] (group11_final) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.044165] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:18:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klong int PartPoseListener::aruco_marker_id_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[10.044278] (group11_final) StderrLine: {'line': b'   18 |     long \x1b[01;35m\x1b[Karuco_marker_id_\x1b[m\x1b[K; // Variable to store the ArUco marker ID\n'}
+[10.044379] (group11_final) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.044477] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[10.044578] (group11_final) StderrLine: {'line': b'    3 | \x1b[01;35m\x1b[KPartPoseListener\x1b[m\x1b[K::PartPoseListener() : Node("part_pose_listener"),\n'}
+[10.044687] (group11_final) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.076226] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::cameraCallback(mage_msgs::msg::AdvancedLogicalCameraImage_<std::allocator<void> >::SharedPtr, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.076456] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:116:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpos\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.076574] (group11_final) StderrLine: {'line': b'  116 |             auto &\x1b[01;35m\x1b[Kpos\x1b[m\x1b[K = pose_transformed.pose.position;\n'}
+[10.076682] (group11_final) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.121215] (-) TimerEvent: {}
+[10.221566] (-) TimerEvent: {}
+[10.321916] (-) TimerEvent: {}
+[10.422268] (-) TimerEvent: {}
+[10.522617] (-) TimerEvent: {}
+[10.622968] (-) TimerEvent: {}
+[10.723316] (-) TimerEvent: {}
+[10.823638] (-) TimerEvent: {}
+[10.924014] (-) TimerEvent: {}
+[11.024393] (-) TimerEvent: {}
+[11.124773] (-) TimerEvent: {}
+[11.225155] (-) TimerEvent: {}
+[11.325537] (-) TimerEvent: {}
+[11.425925] (-) TimerEvent: {}
+[11.526315] (-) TimerEvent: {}
+[11.626696] (-) TimerEvent: {}
+[11.727078] (-) TimerEvent: {}
+[11.827501] (-) TimerEvent: {}
+[11.927909] (-) TimerEvent: {}
+[12.028320] (-) TimerEvent: {}
+[12.128729] (-) TimerEvent: {}
+[12.229123] (-) TimerEvent: {}
+[12.329513] (-) TimerEvent: {}
+[12.429900] (-) TimerEvent: {}
+[12.530286] (-) TimerEvent: {}
+[12.630696] (-) TimerEvent: {}
+[12.731085] (-) TimerEvent: {}
+[12.831491] (-) TimerEvent: {}
+[12.931876] (-) TimerEvent: {}
+[13.032268] (-) TimerEvent: {}
+[13.132660] (-) TimerEvent: {}
+[13.233048] (-) TimerEvent: {}
+[13.333437] (-) TimerEvent: {}
+[13.433839] (-) TimerEvent: {}
+[13.534224] (-) TimerEvent: {}
+[13.634612] (-) TimerEvent: {}
+[13.735002] (-) TimerEvent: {}
+[13.835387] (-) TimerEvent: {}
+[13.935785] (-) TimerEvent: {}
+[14.036183] (-) TimerEvent: {}
+[14.136576] (-) TimerEvent: {}
+[14.236969] (-) TimerEvent: {}
+[14.337376] (-) TimerEvent: {}
+[14.437770] (-) TimerEvent: {}
+[14.538151] (-) TimerEvent: {}
+[14.638528] (-) TimerEvent: {}
+[14.738908] (-) TimerEvent: {}
+[14.839285] (-) TimerEvent: {}
+[14.939643] (-) TimerEvent: {}
+[15.040024] (-) TimerEvent: {}
+[15.140446] (-) TimerEvent: {}
+[15.240784] (-) TimerEvent: {}
+[15.341120] (-) TimerEvent: {}
+[15.441459] (-) TimerEvent: {}
+[15.541796] (-) TimerEvent: {}
+[15.642133] (-) TimerEvent: {}
+[15.742471] (-) TimerEvent: {}
+[15.842814] (-) TimerEvent: {}
+[15.943151] (-) TimerEvent: {}
+[16.043501] (-) TimerEvent: {}
+[16.143834] (-) TimerEvent: {}
+[16.244169] (-) TimerEvent: {}
+[16.344505] (-) TimerEvent: {}
+[16.444838] (-) TimerEvent: {}
+[16.545175] (-) TimerEvent: {}
+[16.645510] (-) TimerEvent: {}
+[16.745845] (-) TimerEvent: {}
+[16.846177] (-) TimerEvent: {}
+[16.946509] (-) TimerEvent: {}
+[17.046843] (-) TimerEvent: {}
+[17.147177] (-) TimerEvent: {}
+[17.247510] (-) TimerEvent: {}
+[17.347831] (-) TimerEvent: {}
+[17.448165] (-) TimerEvent: {}
+[17.548503] (-) TimerEvent: {}
+[17.648833] (-) TimerEvent: {}
+[17.749167] (-) TimerEvent: {}
+[17.849501] (-) TimerEvent: {}
+[17.949832] (-) TimerEvent: {}
+[18.050174] (-) TimerEvent: {}
+[18.150516] (-) TimerEvent: {}
+[18.250853] (-) TimerEvent: {}
+[18.351196] (-) TimerEvent: {}
+[18.451532] (-) TimerEvent: {}
+[18.551867] (-) TimerEvent: {}
+[18.652203] (-) TimerEvent: {}
+[18.752537] (-) TimerEvent: {}
+[18.852871] (-) TimerEvent: {}
+[18.953202] (-) TimerEvent: {}
+[19.053539] (-) TimerEvent: {}
+[19.153877] (-) TimerEvent: {}
+[19.254213] (-) TimerEvent: {}
+[19.354550] (-) TimerEvent: {}
+[19.454886] (-) TimerEvent: {}
+[19.555221] (-) TimerEvent: {}
+[19.655568] (-) TimerEvent: {}
+[19.755904] (-) TimerEvent: {}
+[19.856259] (-) TimerEvent: {}
+[19.956585] (-) TimerEvent: {}
+[20.056964] (-) TimerEvent: {}
+[20.157269] (-) TimerEvent: {}
+[20.257696] (-) TimerEvent: {}
+[20.358080] (-) TimerEvent: {}
+[20.458470] (-) TimerEvent: {}
+[20.558874] (-) TimerEvent: {}
+[20.659269] (-) TimerEvent: {}
+[20.759643] (-) TimerEvent: {}
+[20.813553] (group11_final) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable part_pose_listener\x1b[0m\n'}
+[20.859740] (-) TimerEvent: {}
+[20.960110] (-) TimerEvent: {}
+[21.060496] (-) TimerEvent: {}
+[21.160891] (-) TimerEvent: {}
+[21.261296] (-) TimerEvent: {}
+[21.361686] (-) TimerEvent: {}
+[21.462043] (-) TimerEvent: {}
+[21.512858] (group11_final) StdoutLine: {'line': b'[100%] Built target part_pose_listener\n'}
+[21.562293] (-) TimerEvent: {}
+[21.662938] (-) TimerEvent: {}
+[21.763601] (-) TimerEvent: {}
+[21.776029] (group11_final) CommandEnded: {'returncode': 0}
+[21.853329] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'install'}
+[21.857459] (group11_final) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nitish/final_ws/build/group11_final'], 'cwd': '/home/nitish/final_ws/build/group11_final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1453'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1196'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12582'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:46201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1508,unix/vulcan:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'af2be3d1523e441e925b2096904c604b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8fa3c5f2-ee3e-49f3-a30c-1ce4de32b443'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/group11_final'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic')]), 'shell': False}
+[21.863732] (-) TimerEvent: {}
+[21.880648] (group11_final) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.881329] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener\n'}
+[21.890683] (group11_final) StdoutLine: {'line': b'-- Set runtime path of "/home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener" to ""\n'}
+[21.890993] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final//include\n'}
+[21.891277] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final\n'}
+[21.891570] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final/part_pose_listener.hpp\n'}
+[21.891773] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final//config\n'}
+[21.891998] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final//config/waypoint_params.yaml\n'}
+[21.892230] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final//launch\n'}
+[21.892419] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final//launch/launch.py\n'}
+[21.892624] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/package_run_dependencies/group11_final\n'}
+[21.892816] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/parent_prefix_path/group11_final\n'}
+[21.893079] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.sh\n'}
+[21.893336] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.dsv\n'}
+[21.893543] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.sh\n'}
+[21.893720] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.dsv\n'}
+[21.893957] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.bash\n'}
+[21.894180] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.sh\n'}
+[21.894383] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.zsh\n'}
+[21.894577] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.dsv\n'}
+[21.894745] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/package.dsv\n'}
+[21.894958] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/packages/group11_final\n'}
+[21.895134] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig.cmake\n'}
+[21.895336] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig-version.cmake\n'}
+[21.895519] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/package.xml\n'}
+[21.897701] (group11_final) CommandEnded: {'returncode': 0}
+[21.964957] (-) TimerEvent: {}
+[22.065891] (-) TimerEvent: {}
+[22.169506] (-) TimerEvent: {}
+[22.270106] (-) TimerEvent: {}
+[22.371873] (-) TimerEvent: {}
+[22.468519] (group11_final) JobEnded: {'identifier': 'group11_final', 'rc': 0}
+[22.469994] (-) EventReactorShutdown: {}

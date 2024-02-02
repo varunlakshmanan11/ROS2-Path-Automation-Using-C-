@@ -1,0 +1,175 @@
+[1.090s] Invoking command in '/home/nitish/final_ws/build/final_project': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/final_project -- -j12 -l12
+[1.270s] [  0%] Built target ament_cmake_python_copy_final_project
+[1.306s] [ 50%] Built target disable_shadows_plugin
+[1.323s] [100%] Built target AriacLogicalCameraPlugin
+[2.048s] running install_scripts
+[2.090s] running egg_info
+[2.091s] writing final_project.egg-info/PKG-INFO
+[2.092s] writing dependency_links to final_project.egg-info/dependency_links.txt
+[2.093s] writing top-level names to final_project.egg-info/top_level.txt
+[2.126s] running egg_info
+[2.129s] writing final_project.egg-info/PKG-INFO
+[2.133s] writing dependency_links to final_project.egg-info/dependency_links.txt
+[2.133s] writing top-level names to final_project.egg-info/top_level.txt
+[2.235s] reading manifest file 'final_project.egg-info/SOURCES.txt'
+[2.236s] reading manifest file 'final_project.egg-info/SOURCES.txt'
+[2.238s] writing manifest file 'final_project.egg-info/SOURCES.txt'
+[2.238s] writing manifest file 'final_project.egg-info/SOURCES.txt'
+[2.339s] [100%] Built target ament_cmake_python_build_final_project_scripts
+[2.340s] [100%] Built target ament_cmake_python_build_final_project_egg
+[2.390s] Invoked command in '/home/nitish/final_ws/build/final_project' returned '0': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/final_project -- -j12 -l12
+[2.489s] Invoking command in '/home/nitish/final_ws/build/final_project': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/nitish/final_ws/build/final_project
+[2.523s] -- Install configuration: ""
+[2.524s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/library_path.sh
+[2.525s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/library_path.dsv
+[2.526s] -- Up-to-date: /home/nitish/final_ws/install/final_project/include
+[2.526s] -- Up-to-date: /home/nitish/final_ws/install/final_project/include/final_project
+[2.526s] -- Up-to-date: /home/nitish/final_ws/install/final_project/include/final_project/ariac_logical_camera_plugin.hpp
+[2.527s] -- Up-to-date: /home/nitish/final_ws/install/final_project/include/final_project/disable_shadows_plugin.hpp
+[2.527s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/libAriacLogicalCameraPlugin.so
+[2.528s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/libdisable_shadows_plugin.so
+[2.529s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//config
+[2.529s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//config/sensors.yaml
+[2.529s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//config/waypoint_params.yaml
+[2.529s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//launch
+[2.529s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//launch/robot_state_publisher.launch.py
+[2.530s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//launch/spawn_turtlebot3.launch.py
+[2.530s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//launch/final_project.launch.py
+[2.530s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models
+[2.530s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1
+[2.530s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/model.config
+[2.531s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/model.sdf
+[2.531s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials
+[2.531s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/scripts
+[2.531s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/scripts/marker.material
+[2.531s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures
+[2.532s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/5x5_1000-1.svg
+[2.532s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/svgtopng.zip
+[2.532s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/5x5_1000-1.png
+[2.532s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/marker_1.png
+[2.532s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor
+[2.533s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes
+[2.533s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/Suede_Blue.jpg
+[2.533s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/floor.dae
+[2.533s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/Suede_Blue_1.jpg
+[2.534s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/example-2.png
+[2.534s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/model.config
+[2.534s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/model.sdf
+[2.534s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets
+[2.534s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes
+[2.535s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/box_pallet.dae
+[2.535s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/AM200_029_02_Diffuse.jpg
+[2.535s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/AM200_029_01_Diffuse.jpg
+[2.535s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/AM200_029_07_Diffuse.jpg
+[2.539s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/model.config
+[2.539s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/model.sdf
+[2.540s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3
+[2.540s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes
+[2.540s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/box_pallet.dae
+[2.540s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_08_Diffuse.jpg
+[2.541s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_04_Diffuse.jpg
+[2.542s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_01_Diffuse.jpg
+[2.542s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_03_Diffuse.jpg
+[2.543s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/model.config
+[2.544s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/model.sdf
+[2.544s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2
+[2.544s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/model.config
+[2.544s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/model.sdf
+[2.545s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials
+[2.545s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/scripts
+[2.546s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/scripts/marker.material
+[2.546s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures
+[2.546s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/5x5_1000-2.png
+[2.546s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/marker_2.png
+[2.547s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/5x5_1000-2.svg
+[2.547s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/svgtopng.zip
+[2.548s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0
+[2.548s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/model.config
+[2.548s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/model.sdf
+[2.549s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials
+[2.549s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/scripts
+[2.549s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/scripts/marker.material
+[2.549s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures
+[2.550s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/5x5_1000-0.svg
+[2.550s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/marker_0_old.png
+[2.550s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/svgtopng.zip
+[2.550s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/5x5_1000-0.png
+[2.550s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery
+[2.551s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes
+[2.551s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_base.stl
+[2.551s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_cap.stl
+[2.551s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_collision.stl
+[2.551s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_pins.stl
+[2.552s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/model.config
+[2.552s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/model.sdf
+[2.552s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera
+[2.552s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/meshes
+[2.552s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/meshes/camera.dae
+[2.552s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/model.config
+[2.553s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/model.sdf
+[2.553s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/materials
+[2.553s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/materials/textures
+[2.553s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/materials/textures/camera.png
+[2.553s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin
+[2.554s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes
+[2.554s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/bin_interior.stl
+[2.554s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/bin_exterior.dae
+[2.554s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/Steel_Brushed_Stainless.jpg.001.jpg
+[2.554s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/bin_exterior.stl
+[2.555s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/Metal_Rough.jpg.001.jpg
+[2.555s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/model.config
+[2.555s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/model.sdf
+[2.555s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2
+[2.556s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes
+[2.556s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/box_pallet.dae
+[2.556s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/AM200_029_06_Diffuse.jpg
+[2.556s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/AM200_029_01_Diffuse.jpg
+[2.557s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/AM200_029_05_Diffuse.jpg
+[2.557s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/model.config
+[2.558s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/model.sdf
+[2.558s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle
+[2.559s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle/model-1_4.sdf
+[2.560s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle/model.config
+[2.561s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle/model.sdf
+[2.561s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//worlds
+[2.561s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//worlds/final.world
+[2.561s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//maps
+[2.562s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//maps/final2_map.pgm
+[2.562s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project//maps/final2_map.yaml
+[2.563s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/pythonpath.sh
+[2.563s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/pythonpath.dsv
+[2.565s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info
+[2.566s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/dependency_links.txt
+[2.566s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/SOURCES.txt
+[2.567s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/top_level.txt
+[2.567s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/PKG-INFO
+[2.567s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/
+[2.567s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project
+[2.568s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/tf_broadcaster.py
+[2.568s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/__init__.py
+[2.568s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/utilities.py
+[2.568s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/spawn_params.py
+[2.569s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/tf2_geometry_msgs.py
+[2.569s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/environment_startup.py
+[2.653s] Listing '/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project'...
+[2.666s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/environment_startup_node.py
+[2.667s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/sensor_tf_broadcaster.py
+[2.667s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/part_spawner.py
+[2.667s] -- Up-to-date: /home/nitish/final_ws/install/final_project/lib/final_project/object_tf_broadcaster.py
+[2.667s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+[2.667s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+[2.668s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/ament_prefix_path.sh
+[2.668s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+[2.668s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/path.sh
+[2.668s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/environment/path.dsv
+[2.668s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.bash
+[2.669s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.sh
+[2.669s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.zsh
+[2.669s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.dsv
+[2.669s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/package.dsv
+[2.675s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/ament_index/resource_index/packages/final_project
+[2.676s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/cmake/ament_cmake_export_libraries-extras.cmake
+[2.677s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+[2.677s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+[2.678s] -- Up-to-date: /home/nitish/final_ws/install/final_project/share/final_project/package.xml
+[2.691s] Invoked command in '/home/nitish/final_ws/build/final_project' returned '0': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/nitish/final_ws/build/final_project

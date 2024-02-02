@@ -1,0 +1,15 @@
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:[m[K In constructor ‘[01m[KPartPoseListener::PartPoseListener()[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:30:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KPartPoseListener::tfListener[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   30 |     tf2_ros::TransformListener [01;35m[KtfListener[m[K;
+      |                                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:18:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klong int PartPoseListener::aruco_marker_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+   18 |     long [01;35m[Karuco_marker_id_[m[K; // Variable to store the ArUco marker ID
+      |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    3 | [01;35m[KPartPoseListener[m[K::PartPoseListener() : Node("part_pose_listener"),
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:[m[K In member function ‘[01m[Kvoid PartPoseListener::cameraCallback(mage_msgs::msg::AdvancedLogicalCameraImage_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:116:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  116 |             auto &[01;35m[Kpos[m[K = pose_transformed.pose.position;
+      |                   [01;35m[K^~~[m[K

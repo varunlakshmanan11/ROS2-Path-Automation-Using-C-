@@ -1,0 +1,343 @@
+[0.000000] (-) TimerEvent: {}
+[0.000699] (-) JobUnselected: {'identifier': 'final_project'}
+[0.000768] (-) JobUnselected: {'identifier': 'mage_msgs'}
+[0.000795] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000819] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000862] (group11_final) JobQueued: {'identifier': 'group11_final', 'dependencies': OrderedDict([('mage_msgs', '/home/nitish/final_ws/install/mage_msgs'), ('ros2_aruco_interfaces', '/home/nitish/final_ws/install/ros2_aruco_interfaces')])}
+[0.000925] (group11_final) JobStarted: {'identifier': 'group11_final'}
+[0.098424] (-) TimerEvent: {}
+[0.199545] (-) TimerEvent: {}
+[0.300726] (-) TimerEvent: {}
+[0.401341] (-) TimerEvent: {}
+[0.473394] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'cmake'}
+[0.474421] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'build'}
+[0.475308] (group11_final) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nitish/final_ws/build/group11_final', '--', '-j12', '-l12'], 'cwd': '/home/nitish/final_ws/build/group11_final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1465'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1216'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3403'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nitish/final_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:38386'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1503,unix/vulcan:/tmp/.ICE-unix/1503'), ('INVOCATION_ID', '79f52ac71b0a479f980d600903afafc7'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/ros2_aruco:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c7cd48a0-d0d4-462d-b914-d2c7f2bdc06f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/group11_final'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic')]), 'shell': False}
+[0.501678] (-) TimerEvent: {}
+[0.579324] (group11_final) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target part_pose_listener\x1b[0m\n'}
+[0.601851] (-) TimerEvent: {}
+[0.702764] (-) TimerEvent: {}
+[0.746551] (group11_final) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o\x1b[0m\n'}
+[0.802904] (-) TimerEvent: {}
+[0.903399] (-) TimerEvent: {}
+[1.003925] (-) TimerEvent: {}
+[1.104294] (-) TimerEvent: {}
+[1.204664] (-) TimerEvent: {}
+[1.305075] (-) TimerEvent: {}
+[1.405423] (-) TimerEvent: {}
+[1.505832] (-) TimerEvent: {}
+[1.606521] (-) TimerEvent: {}
+[1.707034] (-) TimerEvent: {}
+[1.807398] (-) TimerEvent: {}
+[1.908302] (-) TimerEvent: {}
+[2.009388] (-) TimerEvent: {}
+[2.110121] (-) TimerEvent: {}
+[2.210587] (-) TimerEvent: {}
+[2.311113] (-) TimerEvent: {}
+[2.411450] (-) TimerEvent: {}
+[2.511745] (-) TimerEvent: {}
+[2.612076] (-) TimerEvent: {}
+[2.712425] (-) TimerEvent: {}
+[2.813090] (-) TimerEvent: {}
+[2.913376] (-) TimerEvent: {}
+[3.013749] (-) TimerEvent: {}
+[3.114312] (-) TimerEvent: {}
+[3.214619] (-) TimerEvent: {}
+[3.315063] (-) TimerEvent: {}
+[3.415614] (-) TimerEvent: {}
+[3.516197] (-) TimerEvent: {}
+[3.616708] (-) TimerEvent: {}
+[3.717356] (-) TimerEvent: {}
+[3.817937] (-) TimerEvent: {}
+[3.918493] (-) TimerEvent: {}
+[4.018923] (-) TimerEvent: {}
+[4.119429] (-) TimerEvent: {}
+[4.220234] (-) TimerEvent: {}
+[4.320580] (-) TimerEvent: {}
+[4.421033] (-) TimerEvent: {}
+[4.521661] (-) TimerEvent: {}
+[4.622394] (-) TimerEvent: {}
+[4.722726] (-) TimerEvent: {}
+[4.823093] (-) TimerEvent: {}
+[4.923442] (-) TimerEvent: {}
+[5.023811] (-) TimerEvent: {}
+[5.124840] (-) TimerEvent: {}
+[5.225711] (-) TimerEvent: {}
+[5.326127] (-) TimerEvent: {}
+[5.378323] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1\x1b[m\x1b[K:\n'}
+[5.378889] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPartPoseListener::PartPoseListener()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.379022] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:91:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPartPoseListener::tfListener\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.379142] (group11_final) StderrLine: {'line': b'   91 |     tf2_ros::TransformListener \x1b[01;35m\x1b[KtfListener\x1b[m\x1b[K;\n'}
+[5.379258] (group11_final) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.379371] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:70:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Klong int PartPoseListener::aruco_marker_id_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.379486] (group11_final) StderrLine: {'line': b'   70 |     long \x1b[01;35m\x1b[Karuco_marker_id_\x1b[m\x1b[K; // Variable to store the ArUco marker ID\n'}
+[5.379599] (group11_final) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.379709] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.379825] (group11_final) StderrLine: {'line': b'    3 | \x1b[01;35m\x1b[KPartPoseListener\x1b[m\x1b[K::PartPoseListener() : Node("part_pose_listener"),\n'}
+[5.379938] (group11_final) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.380049] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1\x1b[m\x1b[K:\n'}
+[5.380160] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:74:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPartPoseListener::info_logged_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.380274] (group11_final) StderrLine: {'line': b'   74 |     bool \x1b[01;35m\x1b[Kinfo_logged_\x1b[m\x1b[K;\n'}
+[5.380386] (group11_final) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.380497] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:66:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksize_t PartPoseListener::total_parts_to_detect\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.380615] (group11_final) StderrLine: {'line': b'   66 |     size_t \x1b[01;35m\x1b[Ktotal_parts_to_detect\x1b[m\x1b[K;\n'}
+[5.380737] (group11_final) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.380861] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.380977] (group11_final) StderrLine: {'line': b'    3 | \x1b[01;35m\x1b[KPartPoseListener\x1b[m\x1b[K::PartPoseListener() : Node("part_pose_listener"),\n'}
+[5.381090] (group11_final) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.381202] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1\x1b[m\x1b[K:\n'}
+[5.381314] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:72:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPartPoseListener::all_parts_logged_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.381446] (group11_final) StderrLine: {'line': b'   72 |     bool \x1b[01;35m\x1b[Kall_parts_logged_\x1b[m\x1b[K;\n'}
+[5.381559] (group11_final) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.381671] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:42:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool PartPoseListener::initial_pose_set_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.381785] (group11_final) StderrLine: {'line': b'   42 |     bool \x1b[01;35m\x1b[Kinitial_pose_set_\x1b[m\x1b[K;\n'}
+[5.381897] (group11_final) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.385709] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[5.386627] (group11_final) StderrLine: {'line': b'    3 | \x1b[01;35m\x1b[KPartPoseListener\x1b[m\x1b[K::PartPoseListener() : Node("part_pose_listener"),\n'}
+[5.387367] (group11_final) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.426441] (-) TimerEvent: {}
+[5.527459] (-) TimerEvent: {}
+[5.627823] (-) TimerEvent: {}
+[5.728153] (-) TimerEvent: {}
+[5.828626] (-) TimerEvent: {}
+[5.929189] (-) TimerEvent: {}
+[6.029678] (-) TimerEvent: {}
+[6.129962] (-) TimerEvent: {}
+[6.230464] (-) TimerEvent: {}
+[6.331413] (-) TimerEvent: {}
+[6.431817] (-) TimerEvent: {}
+[6.532321] (-) TimerEvent: {}
+[6.632774] (-) TimerEvent: {}
+[6.733142] (-) TimerEvent: {}
+[6.833511] (-) TimerEvent: {}
+[6.934019] (-) TimerEvent: {}
+[7.034462] (-) TimerEvent: {}
+[7.134756] (-) TimerEvent: {}
+[7.235064] (-) TimerEvent: {}
+[7.335493] (-) TimerEvent: {}
+[7.436003] (-) TimerEvent: {}
+[7.536344] (-) TimerEvent: {}
+[7.636666] (-) TimerEvent: {}
+[7.737279] (-) TimerEvent: {}
+[7.838184] (-) TimerEvent: {}
+[7.939129] (-) TimerEvent: {}
+[8.040024] (-) TimerEvent: {}
+[8.140403] (-) TimerEvent: {}
+[8.240735] (-) TimerEvent: {}
+[8.341148] (-) TimerEvent: {}
+[8.441760] (-) TimerEvent: {}
+[8.542047] (-) TimerEvent: {}
+[8.642408] (-) TimerEvent: {}
+[8.742838] (-) TimerEvent: {}
+[8.843397] (-) TimerEvent: {}
+[8.943750] (-) TimerEvent: {}
+[9.044117] (-) TimerEvent: {}
+[9.144408] (-) TimerEvent: {}
+[9.244686] (-) TimerEvent: {}
+[9.345040] (-) TimerEvent: {}
+[9.445438] (-) TimerEvent: {}
+[9.546127] (-) TimerEvent: {}
+[9.646690] (-) TimerEvent: {}
+[9.747104] (-) TimerEvent: {}
+[9.847588] (-) TimerEvent: {}
+[9.948786] (-) TimerEvent: {}
+[10.049188] (-) TimerEvent: {}
+[10.149563] (-) TimerEvent: {}
+[10.250085] (-) TimerEvent: {}
+[10.350552] (-) TimerEvent: {}
+[10.450939] (-) TimerEvent: {}
+[10.551487] (-) TimerEvent: {}
+[10.652482] (-) TimerEvent: {}
+[10.752774] (-) TimerEvent: {}
+[10.853232] (-) TimerEvent: {}
+[10.954158] (-) TimerEvent: {}
+[11.054712] (-) TimerEvent: {}
+[11.155345] (-) TimerEvent: {}
+[11.255975] (-) TimerEvent: {}
+[11.356387] (-) TimerEvent: {}
+[11.456670] (-) TimerEvent: {}
+[11.557106] (-) TimerEvent: {}
+[11.657810] (-) TimerEvent: {}
+[11.758691] (-) TimerEvent: {}
+[11.859250] (-) TimerEvent: {}
+[11.959668] (-) TimerEvent: {}
+[12.060450] (-) TimerEvent: {}
+[12.314227] (-) TimerEvent: {}
+[12.414912] (-) TimerEvent: {}
+[12.515219] (-) TimerEvent: {}
+[12.615627] (-) TimerEvent: {}
+[12.716318] (-) TimerEvent: {}
+[12.816620] (-) TimerEvent: {}
+[12.917033] (-) TimerEvent: {}
+[13.017646] (-) TimerEvent: {}
+[13.118326] (-) TimerEvent: {}
+[13.218718] (-) TimerEvent: {}
+[13.319174] (-) TimerEvent: {}
+[13.419851] (-) TimerEvent: {}
+[13.520157] (-) TimerEvent: {}
+[13.620542] (-) TimerEvent: {}
+[13.721132] (-) TimerEvent: {}
+[13.821990] (-) TimerEvent: {}
+[13.922934] (-) TimerEvent: {}
+[14.023487] (-) TimerEvent: {}
+[14.123914] (-) TimerEvent: {}
+[14.224235] (-) TimerEvent: {}
+[14.324583] (-) TimerEvent: {}
+[14.425028] (-) TimerEvent: {}
+[14.525382] (-) TimerEvent: {}
+[14.625971] (-) TimerEvent: {}
+[14.726735] (-) TimerEvent: {}
+[14.827528] (-) TimerEvent: {}
+[14.927955] (-) TimerEvent: {}
+[15.028807] (-) TimerEvent: {}
+[15.129326] (-) TimerEvent: {}
+[15.229595] (-) TimerEvent: {}
+[15.329897] (-) TimerEvent: {}
+[15.430291] (-) TimerEvent: {}
+[15.530847] (-) TimerEvent: {}
+[15.631106] (-) TimerEvent: {}
+[15.731648] (-) TimerEvent: {}
+[15.832286] (-) TimerEvent: {}
+[15.932686] (-) TimerEvent: {}
+[16.032987] (-) TimerEvent: {}
+[16.133459] (-) TimerEvent: {}
+[16.234184] (-) TimerEvent: {}
+[16.334486] (-) TimerEvent: {}
+[16.435059] (-) TimerEvent: {}
+[16.536369] (-) TimerEvent: {}
+[16.637038] (-) TimerEvent: {}
+[16.737420] (-) TimerEvent: {}
+[16.837748] (-) TimerEvent: {}
+[16.938253] (-) TimerEvent: {}
+[17.038839] (-) TimerEvent: {}
+[17.139973] (-) TimerEvent: {}
+[17.412665] (-) TimerEvent: {}
+[17.513075] (-) TimerEvent: {}
+[17.613465] (-) TimerEvent: {}
+[17.713827] (-) TimerEvent: {}
+[17.814185] (-) TimerEvent: {}
+[17.914525] (-) TimerEvent: {}
+[18.014842] (-) TimerEvent: {}
+[18.115290] (-) TimerEvent: {}
+[18.215794] (-) TimerEvent: {}
+[18.316096] (-) TimerEvent: {}
+[18.416506] (-) TimerEvent: {}
+[18.516860] (-) TimerEvent: {}
+[18.617234] (-) TimerEvent: {}
+[18.717579] (-) TimerEvent: {}
+[18.817986] (-) TimerEvent: {}
+[18.918386] (-) TimerEvent: {}
+[19.018965] (-) TimerEvent: {}
+[19.119290] (-) TimerEvent: {}
+[19.219653] (-) TimerEvent: {}
+[19.320155] (-) TimerEvent: {}
+[19.420626] (-) TimerEvent: {}
+[19.520946] (-) TimerEvent: {}
+[19.621208] (-) TimerEvent: {}
+[19.721886] (-) TimerEvent: {}
+[19.822253] (-) TimerEvent: {}
+[19.922617] (-) TimerEvent: {}
+[20.023072] (-) TimerEvent: {}
+[20.123792] (-) TimerEvent: {}
+[20.224152] (-) TimerEvent: {}
+[20.324712] (-) TimerEvent: {}
+[20.425423] (-) TimerEvent: {}
+[20.525816] (-) TimerEvent: {}
+[20.626140] (-) TimerEvent: {}
+[20.726600] (-) TimerEvent: {}
+[20.827351] (-) TimerEvent: {}
+[20.927815] (-) TimerEvent: {}
+[21.028320] (-) TimerEvent: {}
+[21.128664] (-) TimerEvent: {}
+[21.228968] (-) TimerEvent: {}
+[21.329361] (-) TimerEvent: {}
+[21.429761] (-) TimerEvent: {}
+[21.530229] (-) TimerEvent: {}
+[21.630618] (-) TimerEvent: {}
+[21.730950] (-) TimerEvent: {}
+[21.831440] (-) TimerEvent: {}
+[21.931934] (-) TimerEvent: {}
+[22.032341] (-) TimerEvent: {}
+[22.132859] (-) TimerEvent: {}
+[22.412147] (-) TimerEvent: {}
+[22.512659] (-) TimerEvent: {}
+[22.613091] (-) TimerEvent: {}
+[22.713635] (-) TimerEvent: {}
+[22.813999] (-) TimerEvent: {}
+[22.914300] (-) TimerEvent: {}
+[23.014838] (-) TimerEvent: {}
+[23.115387] (-) TimerEvent: {}
+[23.215874] (-) TimerEvent: {}
+[23.316864] (-) TimerEvent: {}
+[23.417459] (-) TimerEvent: {}
+[23.517871] (-) TimerEvent: {}
+[23.618286] (-) TimerEvent: {}
+[23.718610] (-) TimerEvent: {}
+[23.819062] (-) TimerEvent: {}
+[23.919352] (-) TimerEvent: {}
+[24.019958] (-) TimerEvent: {}
+[24.121024] (-) TimerEvent: {}
+[24.221863] (-) TimerEvent: {}
+[24.322421] (-) TimerEvent: {}
+[24.422891] (-) TimerEvent: {}
+[24.523151] (-) TimerEvent: {}
+[24.623430] (-) TimerEvent: {}
+[24.723897] (-) TimerEvent: {}
+[24.807294] (group11_final) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable part_pose_listener\x1b[0m\n'}
+[24.823983] (-) TimerEvent: {}
+[24.924352] (-) TimerEvent: {}
+[25.024751] (-) TimerEvent: {}
+[25.125248] (-) TimerEvent: {}
+[25.225838] (-) TimerEvent: {}
+[25.326938] (-) TimerEvent: {}
+[25.428082] (-) TimerEvent: {}
+[25.529079] (-) TimerEvent: {}
+[25.629391] (-) TimerEvent: {}
+[25.729704] (-) TimerEvent: {}
+[25.830016] (-) TimerEvent: {}
+[25.930342] (-) TimerEvent: {}
+[26.030748] (-) TimerEvent: {}
+[26.131146] (-) TimerEvent: {}
+[26.132654] (group11_final) StdoutLine: {'line': b'[100%] Built target part_pose_listener\n'}
+[26.231282] (-) TimerEvent: {}
+[26.331780] (-) TimerEvent: {}
+[26.392718] (group11_final) CommandEnded: {'returncode': 0}
+[26.431931] (-) TimerEvent: {}
+[26.446383] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'install'}
+[26.465873] (group11_final) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nitish/final_ws/build/group11_final'], 'cwd': '/home/nitish/final_ws/build/group11_final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1465'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1216'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3403'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nitish/final_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:38386'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1503,unix/vulcan:/tmp/.ICE-unix/1503'), ('INVOCATION_ID', '79f52ac71b0a479f980d600903afafc7'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/ros2_aruco:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c7cd48a0-d0d4-462d-b914-d2c7f2bdc06f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/group11_final'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic')]), 'shell': False}
+[26.487265] (group11_final) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.488270] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener\n'}
+[26.502530] (group11_final) StdoutLine: {'line': b'-- Set runtime path of "/home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener" to ""\n'}
+[26.503642] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include\n'}
+[26.504027] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final\n'}
+[26.504591] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final/part_pose_listener.hpp\n'}
+[26.505736] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//config\n'}
+[26.506002] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//config/waypoint_params.yaml\n'}
+[26.506105] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//launch\n'}
+[26.506206] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//launch/launch.py\n'}
+[26.506352] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/package_run_dependencies/group11_final\n'}
+[26.506594] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/parent_prefix_path/group11_final\n'}
+[26.506734] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.sh\n'}
+[26.506809] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.dsv\n'}
+[26.506882] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.sh\n'}
+[26.506952] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.dsv\n'}
+[26.507021] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.bash\n'}
+[26.507091] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.sh\n'}
+[26.507168] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.zsh\n'}
+[26.507238] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.dsv\n'}
+[26.507307] (group11_final) StdoutLine: {'line': b'-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/package.dsv\n'}
+[26.507390] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/packages/group11_final\n'}
+[26.507504] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig.cmake\n'}
+[26.507615] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig-version.cmake\n'}
+[26.507724] (group11_final) StdoutLine: {'line': b'-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/package.xml\n'}
+[26.509681] (group11_final) CommandEnded: {'returncode': 0}
+[26.532276] (-) TimerEvent: {}
+[26.633068] (-) TimerEvent: {}
+[26.733547] (-) TimerEvent: {}
+[26.834756] (-) TimerEvent: {}
+[26.936273] (-) TimerEvent: {}
+[27.038397] (-) TimerEvent: {}
+[27.139315] (-) TimerEvent: {}
+[27.240768] (-) TimerEvent: {}
+[27.342666] (-) TimerEvent: {}
+[27.369951] (group11_final) JobEnded: {'identifier': 'group11_final', 'rc': 0}
+[27.371647] (-) EventReactorShutdown: {}

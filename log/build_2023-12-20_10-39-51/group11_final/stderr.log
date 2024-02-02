@@ -1,0 +1,11 @@
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:66:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPartPoseListener::[m[K’ on member ‘[01m[KPartPoseListener[m[K’ [[01;31m[K-fpermissive[m[K]
+   66 |     [01;31m[KPartPoseListener[m[K::PartPoseListener() : Node("PartPoseListener"),
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:66:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPartPoseListener::PartPoseListener()[m[K’ cannot be overloaded with ‘[01m[KPartPoseListener::PartPoseListener()[m[K’
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:33:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KPartPoseListener::PartPoseListener()[m[K’
+   33 |     [01;36m[KPartPoseListener[m[K();
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

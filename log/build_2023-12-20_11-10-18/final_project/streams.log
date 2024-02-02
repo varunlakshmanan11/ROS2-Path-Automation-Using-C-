@@ -1,0 +1,19 @@
+[1.375s] Invoking command in '/home/nitish/final_ws/build/final_project': CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/nitish/final_ws/build/final_project -- -j12 -l12
+[1.593s] [  0%] Built target ament_cmake_python_copy_final_project
+[1.652s] [ 50%] Built target AriacLogicalCameraPlugin
+[1.653s] [100%] Built target disable_shadows_plugin
+[2.434s] running egg_info
+[2.438s] writing final_project.egg-info/PKG-INFO
+[2.439s] writing dependency_links to final_project.egg-info/dependency_links.txt
+[2.443s] writing top-level names to final_project.egg-info/top_level.txt
+[2.494s] running install_scripts
+[2.566s] reading manifest file 'final_project.egg-info/SOURCES.txt'
+[2.568s] writing manifest file 'final_project.egg-info/SOURCES.txt'
+[2.571s] running egg_info
+[2.573s] writing final_project.egg-info/PKG-INFO
+[2.573s] writing dependency_links to final_project.egg-info/dependency_links.txt
+[2.574s] writing top-level names to final_project.egg-info/top_level.txt
+[2.668s] [100%] Built target ament_cmake_python_build_final_project_egg
+[2.689s] reading manifest file 'final_project.egg-info/SOURCES.txt'
+[2.692s] writing manifest file 'final_project.egg-info/SOURCES.txt'
+[2.802s] [100%] Built target ament_cmake_python_build_final_project_scripts

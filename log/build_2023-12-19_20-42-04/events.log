@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.000142] (-) JobUnselected: {'identifier': 'final_project'}
+[0.000191] (-) JobUnselected: {'identifier': 'mage_msgs'}
+[0.000222] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000252] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000283] (group11_final) JobQueued: {'identifier': 'group11_final', 'dependencies': OrderedDict([('mage_msgs', '/home/nitish/final_ws/install/mage_msgs'), ('ros2_aruco_interfaces', '/home/nitish/final_ws/install/ros2_aruco_interfaces')])}
+[0.000372] (group11_final) JobStarted: {'identifier': 'group11_final'}
+[0.099949] (-) TimerEvent: {}
+[0.201260] (-) TimerEvent: {}
+[0.302118] (-) TimerEvent: {}
+[0.303316] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'cmake'}
+[0.305311] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'build'}
+[0.305370] (group11_final) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nitish/final_ws/build/group11_final', '--', '-j12', '-l12'], 'cwd': '/home/nitish/final_ws/build/group11_final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1465'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1216'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28730'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nitish/final_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:38386'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1503,unix/vulcan:/tmp/.ICE-unix/1503'), ('INVOCATION_ID', '79f52ac71b0a479f980d600903afafc7'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/ros2_aruco:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d6abaea7-a307-472d-95ef-a58898174e9c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/group11_final'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic')]), 'shell': False}
+[0.403673] (-) TimerEvent: {}
+[0.420625] (group11_final) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/main.cpp.o\x1b[0m\n'}
+[0.421963] (group11_final) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o\x1b[0m\n'}
+[0.503756] (-) TimerEvent: {}
+[0.604160] (-) TimerEvent: {}
+[0.704496] (-) TimerEvent: {}
+[0.804847] (-) TimerEvent: {}
+[0.905177] (-) TimerEvent: {}
+[1.005834] (-) TimerEvent: {}
+[1.106656] (-) TimerEvent: {}
+[1.207057] (-) TimerEvent: {}
+[1.307470] (-) TimerEvent: {}
+[1.408117] (-) TimerEvent: {}
+[1.508698] (-) TimerEvent: {}
+[1.609951] (-) TimerEvent: {}
+[1.710575] (-) TimerEvent: {}
+[1.810911] (-) TimerEvent: {}
+[1.911268] (-) TimerEvent: {}
+[2.011602] (-) TimerEvent: {}
+[2.112006] (-) TimerEvent: {}
+[2.212423] (-) TimerEvent: {}
+[2.312777] (-) TimerEvent: {}
+[2.413173] (-) TimerEvent: {}
+[2.513597] (-) TimerEvent: {}
+[2.613870] (-) TimerEvent: {}
+[2.714263] (-) TimerEvent: {}
+[2.814795] (-) TimerEvent: {}
+[2.915560] (-) TimerEvent: {}
+[3.166921] (-) TimerEvent: {}
+[3.267440] (-) TimerEvent: {}
+[3.367831] (-) TimerEvent: {}
+[3.468124] (-) TimerEvent: {}
+[3.568553] (-) TimerEvent: {}
+[3.668857] (-) TimerEvent: {}
+[3.769310] (-) TimerEvent: {}
+[3.871774] (-) TimerEvent: {}
+[3.905878] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1\x1b[m\x1b[K:\n'}
+[3.906504] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:110:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.906644] (group11_final) StderrLine: {'line': b'  110 |   void \x1b[01;31m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[3.906721] (group11_final) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.906787] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:104:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.906881] (group11_final) StderrLine: {'line': b'  104 |     void \x1b[01;36m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[3.906978] (group11_final) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.907054] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:114:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::sendGoalToWaypoint(const PartPoseListener::Waypoint&)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::sendGoalToWaypoint(const PartPoseListener::Waypoint&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.907131] (group11_final) StderrLine: {'line': b'  114 |   void \x1b[01;31m\x1b[KsendGoalToWaypoint\x1b[m\x1b[K(const Waypoint& waypoint); // Updated declaration\n'}
+[3.907196] (group11_final) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.907262] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:103:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::sendGoalToWaypoint(const PartPoseListener::Waypoint&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.907331] (group11_final) StderrLine: {'line': b'  103 |   void \x1b[01;36m\x1b[KsendGoalToWaypoint\x1b[m\x1b[K(const Waypoint& waypoint);\n'}
+[3.907395] (group11_final) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.907458] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:115:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.907524] (group11_final) StderrLine: {'line': b'  115 |     void \x1b[01;31m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[3.907588] (group11_final) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.907651] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:104:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.907718] (group11_final) StderrLine: {'line': b'  104 |     void \x1b[01;36m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[3.907878] (group11_final) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.971832] (-) TimerEvent: {}
+[4.001577] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[4.001917] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:110:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.002131] (group11_final) StderrLine: {'line': b'  110 |   void \x1b[01;31m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[4.002291] (group11_final) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.002442] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:104:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.002597] (group11_final) StderrLine: {'line': b'  104 |     void \x1b[01;36m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[4.002749] (group11_final) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.002901] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:114:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::sendGoalToWaypoint(const PartPoseListener::Waypoint&)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::sendGoalToWaypoint(const PartPoseListener::Waypoint&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.003067] (group11_final) StderrLine: {'line': b'  114 |   void \x1b[01;31m\x1b[KsendGoalToWaypoint\x1b[m\x1b[K(const Waypoint& waypoint); // Updated declaration\n'}
+[4.003219] (group11_final) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.003377] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:103:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::sendGoalToWaypoint(const PartPoseListener::Waypoint&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.003531] (group11_final) StderrLine: {'line': b'  103 |   void \x1b[01;36m\x1b[KsendGoalToWaypoint\x1b[m\x1b[K(const Waypoint& waypoint);\n'}
+[4.003682] (group11_final) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.003831] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:115:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.003987] (group11_final) StderrLine: {'line': b'  115 |     void \x1b[01;31m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[4.004138] (group11_final) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.004286] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:104:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.004429] (group11_final) StderrLine: {'line': b'  104 |     void \x1b[01;36m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[4.004568] (group11_final) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.071916] (-) TimerEvent: {}
+[4.095994] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:126:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.096203] (group11_final) StderrLine: {'line': b'  126 |     rclcpp_action::Client<NavigateToPose>::SharedPtr \x1b[01;31m\x1b[Knavigate_to_pose_client_\x1b[m\x1b[K;\n'}
+[4.096286] (group11_final) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.096357] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:116:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.096434] (group11_final) StderrLine: {'line': b'  116 |     rclcpp_action::Client<NavigateToPose>::SharedPtr \x1b[01;36m\x1b[Knavigate_to_pose_client_\x1b[m\x1b[K;\n'}
+[4.096500] (group11_final) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.096565] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:127:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.096637] (group11_final) StderrLine: {'line': b'  127 |     std::vector<Waypoint> \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K;\n'}
+[4.096703] (group11_final) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.096768] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:43:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.096835] (group11_final) StderrLine: {'line': b'   43 |     std::vector<Waypoint> \x1b[01;36m\x1b[Kwaypoints_\x1b[m\x1b[K;\n'}
+[4.096899] (group11_final) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.172049] (-) TimerEvent: {}
+[4.195087] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:126:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.195271] (group11_final) StderrLine: {'line': b'  126 |     rclcpp_action::Client<NavigateToPose>::SharedPtr \x1b[01;31m\x1b[Knavigate_to_pose_client_\x1b[m\x1b[K;\n'}
+[4.195349] (group11_final) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.195417] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:116:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.195487] (group11_final) StderrLine: {'line': b'  116 |     rclcpp_action::Client<NavigateToPose>::SharedPtr \x1b[01;36m\x1b[Knavigate_to_pose_client_\x1b[m\x1b[K;\n'}
+[4.195552] (group11_final) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.195627] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:127:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.195702] (group11_final) StderrLine: {'line': b'  127 |     std::vector<Waypoint> \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K;\n'}
+[4.195766] (group11_final) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.195830] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:43:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.195895] (group11_final) StderrLine: {'line': b'   43 |     std::vector<Waypoint> \x1b[01;36m\x1b[Kwaypoints_\x1b[m\x1b[K;\n'}
+[4.195957] (group11_final) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.212201] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::feedback_callback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.212380] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:398:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfeedback\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.212460] (group11_final) StderrLine: {'line': b'  398 |     \x1b[01;35m\x1b[Kconst std::shared_ptr<const NavigateToPose::Feedback> feedback\x1b[m\x1b[K) {\n'}
+[4.212529] (group11_final) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.272165] (-) TimerEvent: {}
+[4.372448] (-) TimerEvent: {}
+[4.472851] (-) TimerEvent: {}
+[4.573227] (-) TimerEvent: {}
+[4.674167] (-) TimerEvent: {}
+[4.774646] (-) TimerEvent: {}
+[4.874981] (-) TimerEvent: {}
+[4.918153] (group11_final) StderrLine: {'line': b'make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:76: CMakeFiles/part_pose_listener.dir/src/main.cpp.o] Error 1\n'}
+[4.918363] (group11_final) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[4.975074] (-) TimerEvent: {}
+[5.075352] (-) TimerEvent: {}
+[5.175630] (-) TimerEvent: {}
+[5.275953] (-) TimerEvent: {}
+[5.376417] (-) TimerEvent: {}
+[5.476703] (-) TimerEvent: {}
+[5.577097] (-) TimerEvent: {}
+[5.677687] (-) TimerEvent: {}
+[5.778039] (-) TimerEvent: {}
+[5.878361] (-) TimerEvent: {}
+[5.978836] (-) TimerEvent: {}
+[6.079746] (-) TimerEvent: {}
+[6.180201] (-) TimerEvent: {}
+[6.280780] (-) TimerEvent: {}
+[6.381450] (-) TimerEvent: {}
+[6.481987] (-) TimerEvent: {}
+[6.582305] (-) TimerEvent: {}
+[6.682638] (-) TimerEvent: {}
+[6.783179] (-) TimerEvent: {}
+[6.883462] (-) TimerEvent: {}
+[6.983766] (-) TimerEvent: {}
+[7.084252] (-) TimerEvent: {}
+[7.184863] (-) TimerEvent: {}
+[7.285154] (-) TimerEvent: {}
+[7.385651] (-) TimerEvent: {}
+[7.486447] (-) TimerEvent: {}
+[7.587069] (-) TimerEvent: {}
+[7.687474] (-) TimerEvent: {}
+[7.787974] (-) TimerEvent: {}
+[7.888563] (-) TimerEvent: {}
+[7.988803] (-) TimerEvent: {}
+[8.089061] (-) TimerEvent: {}
+[8.189677] (-) TimerEvent: {}
+[8.290056] (-) TimerEvent: {}
+[8.390416] (-) TimerEvent: {}
+[8.490709] (-) TimerEvent: {}
+[8.591146] (-) TimerEvent: {}
+[8.691443] (-) TimerEvent: {}
+[8.791826] (-) TimerEvent: {}
+[8.892410] (-) TimerEvent: {}
+[8.993023] (-) TimerEvent: {}
+[9.094350] (-) TimerEvent: {}
+[9.194687] (-) TimerEvent: {}
+[9.295099] (-) TimerEvent: {}
+[9.396022] (-) TimerEvent: {}
+[9.496367] (-) TimerEvent: {}
+[9.596655] (-) TimerEvent: {}
+[9.696964] (-) TimerEvent: {}
+[9.797263] (-) TimerEvent: {}
+[9.897577] (-) TimerEvent: {}
+[9.997954] (-) TimerEvent: {}
+[10.098256] (-) TimerEvent: {}
+[10.198531] (-) TimerEvent: {}
+[10.298964] (-) TimerEvent: {}
+[10.399513] (-) TimerEvent: {}
+[10.499822] (-) TimerEvent: {}
+[10.600111] (-) TimerEvent: {}
+[10.700729] (-) TimerEvent: {}
+[10.801572] (-) TimerEvent: {}
+[10.902130] (-) TimerEvent: {}
+[10.919462] (group11_final) StderrLine: {'line': b'make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1\n'}
+[10.919840] (group11_final) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2\n'}
+[10.920097] (group11_final) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.923886] (group11_final) CommandEnded: {'returncode': 2}
+[11.002411] (-) TimerEvent: {}
+[11.104441] (-) TimerEvent: {}
+[11.204673] (-) TimerEvent: {}
+[11.283807] (group11_final) JobEnded: {'identifier': 'group11_final', 'rc': 2}
+[11.295366] (-) EventReactorShutdown: {}

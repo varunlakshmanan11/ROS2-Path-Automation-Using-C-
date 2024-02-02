@@ -1,0 +1,25 @@
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:[m[K In constructor ‘[01m[KPartPoseListener::PartPoseListener()[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:32:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KPartPoseListener::tfListener[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   32 |     tf2_ros::TransformListener [01;35m[KtfListener[m[K;
+      |                                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:18:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klong int PartPoseListener::aruco_marker_id_[m[K’ [[01;35m[K-Wreorder[m[K]
+   18 |     long [01;35m[Karuco_marker_id_[m[K; // Variable to store the ArUco marker ID
+      |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    3 | [01;35m[KPartPoseListener[m[K::PartPoseListener() : Node("part_pose_listener"),
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:[m[K In member function ‘[01m[Kvoid PartPoseListener::cameraCallback(mage_msgs::msg::AdvancedLogicalCameraImage_<std::allocator<void> >::SharedPtr, const string&)[m[K’:
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:146:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct mage_msgs::msg::PartPose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcolor[m[K’
+  146 |             int part_color = part_pose.[01;31m[Kcolor[m[K;
+      |                                        [01;31m[K^~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:147:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct mage_msgs::msg::PartPose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktype[m[K’; did you mean ‘[01m[KType[m[K’?
+  147 |             int part_type = part_pose.[01;31m[Ktype[m[K;
+      |                                       [01;31m[K^~~~[m[K
+      |                                       [32m[KType[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:164:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  164 |             auto &[01;35m[Kpos[m[K = pose_transformed.pose.position;
+      |                   [01;35m[K^~~[m[K
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

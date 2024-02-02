@@ -1,0 +1,110 @@
+[4.361s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/nitish/final_ws']
+[4.362s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/nitish/final_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f5e263f7640>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f5e263f7640>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5e26406670>)
+[4.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.546s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nitish/final_ws'
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extensions ['ignore', 'ignore_ament_install']
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extension 'ignore'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extension 'ignore_ament_install'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extensions ['colcon_pkg']
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extension 'colcon_pkg'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extensions ['colcon_meta']
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extension 'colcon_meta'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extensions ['ros']
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extension 'ros'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extensions ['cmake', 'python']
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extension 'cmake'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extension 'python'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extensions ['python_setup_py']
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws) by extension 'python_setup_py'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/build) by extension 'ignore'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/build) ignored
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/install) by extension 'ignore'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/install) ignored
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/log) by extension 'ignore'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/log) ignored
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extension 'ignore'
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extension 'ignore_ament_install'
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extensions ['colcon_pkg']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extension 'colcon_pkg'
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extensions ['colcon_meta']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extension 'colcon_meta'
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extensions ['ros']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extension 'ros'
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extensions ['cmake', 'python']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extension 'cmake'
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extension 'python'
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extensions ['python_setup_py']
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src) by extension 'python_setup_py'
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/final_project) by extensions ['ignore', 'ignore_ament_install']
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/final_project) by extension 'ignore'
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/final_project) by extension 'ignore_ament_install'
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/final_project) by extensions ['colcon_pkg']
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/final_project) by extension 'colcon_pkg'
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/final_project) by extensions ['colcon_meta']
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/final_project) by extension 'colcon_meta'
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/final_project) by extensions ['ros']
+[4.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/final_project) by extension 'ros'
+[4.572s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nitish/final_ws/src/final_project' with type 'ros.ament_cmake' and name 'final_project'
+[4.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/group11_final) by extensions ['ignore', 'ignore_ament_install']
+[4.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/group11_final) by extension 'ignore'
+[4.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/group11_final) by extension 'ignore_ament_install'
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/group11_final) by extensions ['colcon_pkg']
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/group11_final) by extension 'colcon_pkg'
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/group11_final) by extensions ['colcon_meta']
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/group11_final) by extension 'colcon_meta'
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/group11_final) by extensions ['ros']
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/group11_final) by extension 'ros'
+[4.575s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nitish/final_ws/src/group11_final' with type 'ros.ament_cmake' and name 'group11_final'
+[4.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/mage_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/mage_msgs) by extension 'ignore'
+[4.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/mage_msgs) by extension 'ignore_ament_install'
+[4.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/mage_msgs) by extensions ['colcon_pkg']
+[4.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/mage_msgs) by extension 'colcon_pkg'
+[4.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/mage_msgs) by extensions ['colcon_meta']
+[4.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/mage_msgs) by extension 'colcon_meta'
+[4.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/mage_msgs) by extensions ['ros']
+[4.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/mage_msgs) by extension 'ros'
+[4.576s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nitish/final_ws/src/mage_msgs' with type 'ros.ament_cmake' and name 'mage_msgs'
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extension 'ignore'
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extension 'ignore_ament_install'
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extensions ['colcon_pkg']
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extension 'colcon_pkg'
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extensions ['colcon_meta']
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extension 'colcon_meta'
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extensions ['ros']
+[4.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extension 'ros'
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extensions ['cmake', 'python']
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extension 'cmake'
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extension 'python'
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extensions ['python_setup_py']
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco) by extension 'python_setup_py'
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco) by extension 'ignore'
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[4.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[4.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[4.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco) by extensions ['ros']
+[4.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco) by extension 'ros'
+[4.579s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nitish/final_ws/src/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[4.581s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nitish/final_ws/src/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[4.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

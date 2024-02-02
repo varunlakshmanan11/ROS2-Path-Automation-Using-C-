@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target part_pose_listener[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable part_pose_listener[0m
+[100%] Built target part_pose_listener
+-- Install configuration: ""
+-- Installing: /home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener
+-- Set runtime path of "/home/nitish/final_ws/install/group11_final/lib/group11_final/part_pose_listener" to ""
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final
+-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final//include/group11_final/part_pose_listener.hpp
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//config
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//config/waypoint_params.yaml
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//launch
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final//launch/launch.py
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/package_run_dependencies/group11_final
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/parent_prefix_path/group11_final
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.sh
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/environment/path.dsv
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.bash
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.sh
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.zsh
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/local_setup.dsv
+-- Installing: /home/nitish/final_ws/install/group11_final/share/group11_final/package.dsv
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/ament_index/resource_index/packages/group11_final
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig.cmake
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/cmake/group11_finalConfig-version.cmake
+-- Up-to-date: /home/nitish/final_ws/install/group11_final/share/group11_final/package.xml

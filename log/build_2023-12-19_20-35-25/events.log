@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.000402] (-) JobUnselected: {'identifier': 'final_project'}
+[0.000477] (-) JobUnselected: {'identifier': 'mage_msgs'}
+[0.000507] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000533] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000578] (group11_final) JobQueued: {'identifier': 'group11_final', 'dependencies': OrderedDict([('mage_msgs', '/home/nitish/final_ws/install/mage_msgs'), ('ros2_aruco_interfaces', '/home/nitish/final_ws/install/ros2_aruco_interfaces')])}
+[0.000618] (group11_final) JobStarted: {'identifier': 'group11_final'}
+[0.098823] (-) TimerEvent: {}
+[0.199320] (-) TimerEvent: {}
+[0.295168] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'cmake'}
+[0.296816] (group11_final) JobProgress: {'identifier': 'group11_final', 'progress': 'build'}
+[0.298369] (group11_final) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nitish/final_ws/build/group11_final', '--', '-j12', '-l12'], 'cwd': '/home/nitish/final_ws/build/group11_final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nitish'), ('SSH_AGENT_PID', '1465'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib:/home/nitish/final_ws/install/mage_msgs/lib:/home/nitish/final_ws/install/final_project/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nitish'), ('OLDPWD', '/home/nitish'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1216'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28730'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nitish/final_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nitish'), ('JOURNAL_STREAM', '8:38386'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nitish'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/galactic/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/nitish/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vulcan:@/tmp/.ICE-unix/1503,unix/vulcan:/tmp/.ICE-unix/1503'), ('INVOCATION_ID', '79f52ac71b0a479f980d600903afafc7'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/ros2_aruco:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d6abaea7-a307-472d-95ef-a58898174e9c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nitish/final_ws/build/group11_final'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:/home/nitish/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nitish/final_ws/install/ros2_aruco_interfaces:/home/nitish/final_ws/install/mage_msgs:/home/nitish/final_ws/install/group11_final:/home/nitish/final_ws/install/final_project:/home/nitish/final_ws/install/ros2_aruco:/opt/ros/galactic')]), 'shell': False}
+[0.301057] (-) TimerEvent: {}
+[0.374718] (group11_final) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target part_pose_listener\x1b[0m\n'}
+[0.401384] (-) TimerEvent: {}
+[0.461723] (group11_final) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/main.cpp.o\x1b[0m\n'}
+[0.465514] (group11_final) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o\x1b[0m\n'}
+[0.501467] (-) TimerEvent: {}
+[0.602276] (-) TimerEvent: {}
+[0.703055] (-) TimerEvent: {}
+[0.803372] (-) TimerEvent: {}
+[0.903809] (-) TimerEvent: {}
+[1.004977] (-) TimerEvent: {}
+[1.105504] (-) TimerEvent: {}
+[1.205829] (-) TimerEvent: {}
+[1.306268] (-) TimerEvent: {}
+[1.406851] (-) TimerEvent: {}
+[1.507685] (-) TimerEvent: {}
+[1.608191] (-) TimerEvent: {}
+[1.709013] (-) TimerEvent: {}
+[1.809318] (-) TimerEvent: {}
+[1.909700] (-) TimerEvent: {}
+[2.010125] (-) TimerEvent: {}
+[2.110437] (-) TimerEvent: {}
+[2.210750] (-) TimerEvent: {}
+[2.311074] (-) TimerEvent: {}
+[2.411490] (-) TimerEvent: {}
+[2.511900] (-) TimerEvent: {}
+[2.612382] (-) TimerEvent: {}
+[2.712689] (-) TimerEvent: {}
+[2.812993] (-) TimerEvent: {}
+[2.913317] (-) TimerEvent: {}
+[3.013578] (-) TimerEvent: {}
+[3.113936] (-) TimerEvent: {}
+[3.214355] (-) TimerEvent: {}
+[3.314860] (-) TimerEvent: {}
+[3.415466] (-) TimerEvent: {}
+[3.515945] (-) TimerEvent: {}
+[3.616222] (-) TimerEvent: {}
+[3.716514] (-) TimerEvent: {}
+[3.816964] (-) TimerEvent: {}
+[3.917515] (-) TimerEvent: {}
+[4.017828] (-) TimerEvent: {}
+[4.081557] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[4.081804] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:110:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.081941] (group11_final) StderrLine: {'line': b'  110 |   void \x1b[01;31m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[4.082041] (group11_final) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.082155] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:104:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.082252] (group11_final) StderrLine: {'line': b'  104 |     void \x1b[01;36m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[4.082344] (group11_final) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.118119] (-) TimerEvent: {}
+[4.122445] (group11_final) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1\x1b[m\x1b[K:\n'}
+[4.370018] (-) TimerEvent: {}
+[4.370170] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:110:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99 cannot be overloaded with \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.370293] (group11_final) StderrLine: {'line': b'  110 |   void \x1b[01;31m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[4.370400] (group11_final) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.370523] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:104:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.370626] (group11_final) StderrLine: {'line': b'  104 |     void \x1b[01;36m\x1b[KresultCallback\x1b[m\x1b[K(const GoalHandleNavigation::WrappedResult& result);\n'}
+[4.370719] (group11_final) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.370816] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:123:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.370914] (group11_final) StderrLine: {'line': b'  123 |     std::vector<Waypoint> \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K;\n'}
+[4.371009] (group11_final) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.371120] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:43:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.371264] (group11_final) StderrLine: {'line': b'   43 |     std::vector<Waypoint> \x1b[01;36m\x1b[Kwaypoints_\x1b[m\x1b[K;\n'}
+[4.371559] (group11_final) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.371731] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:123:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.372007] (group11_final) StderrLine: {'line': b'  123 |     std::vector<Waypoint> \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K;\n'}
+[4.372391] (group11_final) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.372696] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:43:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.373180] (group11_final) StderrLine: {'line': b'   43 |     std::vector<Waypoint> \x1b[01;36m\x1b[Kwaypoints_\x1b[m\x1b[K;\n'}
+[4.373734] (group11_final) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.374029] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::feedback_callback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.374186] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:398:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfeedback\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.374314] (group11_final) StderrLine: {'line': b'  398 |     \x1b[01;35m\x1b[Kconst std::shared_ptr<const NavigateToPose::Feedback> feedback\x1b[m\x1b[K) {\n'}
+[4.374468] (group11_final) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.374607] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PartPoseListener::resultCallback(const WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.374726] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:407:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[4.374836] (group11_final) StderrLine: {'line': b'  407 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[4.374939] (group11_final) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.375061] (group11_final) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:402:90:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.375187] (group11_final) StderrLine: {'line': b'  402 | void PartPoseListener::resultCallback(const GoalHandleNavigation::WrappedResult& result) \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.375319] (group11_final) StderrLine: {'line': b'      |                                                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.470144] (-) TimerEvent: {}
+[4.570527] (-) TimerEvent: {}
+[4.671011] (-) TimerEvent: {}
+[4.771361] (-) TimerEvent: {}
+[4.871632] (-) TimerEvent: {}
+[4.930385] (group11_final) StderrLine: {'line': b'make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:76: CMakeFiles/part_pose_listener.dir/src/main.cpp.o] Error 1\n'}
+[4.930746] (group11_final) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[4.971798] (-) TimerEvent: {}
+[5.072059] (-) TimerEvent: {}
+[5.172419] (-) TimerEvent: {}
+[5.272805] (-) TimerEvent: {}
+[5.373185] (-) TimerEvent: {}
+[5.473479] (-) TimerEvent: {}
+[5.573822] (-) TimerEvent: {}
+[5.674669] (-) TimerEvent: {}
+[5.775102] (-) TimerEvent: {}
+[5.875370] (-) TimerEvent: {}
+[5.975804] (-) TimerEvent: {}
+[6.076276] (-) TimerEvent: {}
+[6.176654] (-) TimerEvent: {}
+[6.276934] (-) TimerEvent: {}
+[6.377192] (-) TimerEvent: {}
+[6.477491] (-) TimerEvent: {}
+[6.577757] (-) TimerEvent: {}
+[6.678009] (-) TimerEvent: {}
+[6.778555] (-) TimerEvent: {}
+[6.879233] (-) TimerEvent: {}
+[6.979518] (-) TimerEvent: {}
+[7.079826] (-) TimerEvent: {}
+[7.180497] (-) TimerEvent: {}
+[7.280926] (-) TimerEvent: {}
+[7.381251] (-) TimerEvent: {}
+[7.481606] (-) TimerEvent: {}
+[7.581992] (-) TimerEvent: {}
+[7.682232] (-) TimerEvent: {}
+[7.782590] (-) TimerEvent: {}
+[7.882881] (-) TimerEvent: {}
+[7.983672] (-) TimerEvent: {}
+[8.084018] (-) TimerEvent: {}
+[8.184385] (-) TimerEvent: {}
+[8.284851] (-) TimerEvent: {}
+[8.385186] (-) TimerEvent: {}
+[8.485456] (-) TimerEvent: {}
+[8.585812] (-) TimerEvent: {}
+[8.686078] (-) TimerEvent: {}
+[8.786389] (-) TimerEvent: {}
+[8.886788] (-) TimerEvent: {}
+[8.987192] (-) TimerEvent: {}
+[9.087570] (-) TimerEvent: {}
+[9.187913] (-) TimerEvent: {}
+[9.288383] (-) TimerEvent: {}
+[9.539552] (-) TimerEvent: {}
+[9.640015] (-) TimerEvent: {}
+[9.740960] (-) TimerEvent: {}
+[9.842116] (-) TimerEvent: {}
+[9.942369] (-) TimerEvent: {}
+[10.042911] (-) TimerEvent: {}
+[10.143874] (-) TimerEvent: {}
+[10.244234] (-) TimerEvent: {}
+[10.344664] (-) TimerEvent: {}
+[10.445090] (-) TimerEvent: {}
+[10.546139] (-) TimerEvent: {}
+[10.647085] (-) TimerEvent: {}
+[10.748168] (-) TimerEvent: {}
+[10.848681] (-) TimerEvent: {}
+[10.948954] (-) TimerEvent: {}
+[11.048925] (group11_final) StderrLine: {'line': b'make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1\n'}
+[11.049119] (-) TimerEvent: {}
+[11.049268] (group11_final) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2\n'}
+[11.049479] (group11_final) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[11.051329] (group11_final) CommandEnded: {'returncode': 2}
+[11.149356] (-) TimerEvent: {}
+[11.250770] (-) TimerEvent: {}
+[11.340311] (group11_final) JobEnded: {'identifier': 'group11_final', 'rc': 2}
+[11.351215] (-) TimerEvent: {}
+[11.353181] (-) EventReactorShutdown: {}

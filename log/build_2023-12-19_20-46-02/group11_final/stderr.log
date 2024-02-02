@@ -1,0 +1,73 @@
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/main.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’
+   33 |     void [01;31m[KnavigateThroughWaypoints[m[K();
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:32:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’
+   32 |     void [01;36m[KnavigateThroughWaypoints[m[K();
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:34:35:[m[K [01;31m[Kerror: [m[K‘[01m[KWaypoint[m[K’ does not name a type
+   34 |     void sendGoalToWaypoint(const [01;31m[KWaypoint[m[K& waypoint);
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nitish/final_ws/src/group11_final/src/part_pose_listener.cpp:1[m[K:
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’
+   33 |     void [01;31m[KnavigateThroughWaypoints[m[K();
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:32:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::navigateThroughWaypoints()[m[K’
+   32 |     void [01;36m[KnavigateThroughWaypoints[m[K();
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:34:35:[m[K [01;31m[Kerror: [m[K‘[01m[KWaypoint[m[K’ does not name a type
+   34 |     void sendGoalToWaypoint(const [01;31m[KWaypoint[m[K& waypoint);
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:113:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+  113 |   void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+   35 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:118:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+  118 |     void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+   35 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:113:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+  113 |   void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+   35 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:118:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’ cannot be overloaded with ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+  118 |     void [01;31m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:35:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid PartPoseListener::resultCallback(const WrappedResult&)[m[K’
+   35 |     void [01;36m[KresultCallback[m[K(const GoalHandleNavigation::WrappedResult& result);
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:129:27:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+  129 |     std::vector<Waypoint> [01;31m[Kwaypoints_[m[K;
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:46:27:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+   46 |     std::vector<Waypoint> [01;36m[Kwaypoints_[m[K;
+      |                           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:131:54:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_[m[K’
+  131 |     rclcpp_action::Client<NavigateToPose>::SharedPtr [01;31m[Knavigate_to_pose_client_[m[K;
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:119:54:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_[m[K’
+  119 |     rclcpp_action::Client<NavigateToPose>::SharedPtr [01;36m[Knavigate_to_pose_client_[m[K;
+      |                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:129:27:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+  129 |     std::vector<Waypoint> [01;31m[Kwaypoints_[m[K;
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:46:27:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::vector<PartPoseListener::Waypoint> PartPoseListener::waypoints_[m[K’
+   46 |     std::vector<Waypoint> [01;36m[Kwaypoints_[m[K;
+      |                           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:131:54:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_[m[K’
+  131 |     rclcpp_action::Client<NavigateToPose>::SharedPtr [01;31m[Knavigate_to_pose_client_[m[K;
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nitish/final_ws/src/group11_final/include/group11_final/part_pose_listener.hpp:119:54:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::Client<nav2_msgs::action::NavigateToPose>::SharedPtr PartPoseListener::navigate_to_pose_client_[m[K’
+  119 |     rclcpp_action::Client<NavigateToPose>::SharedPtr [01;36m[Knavigate_to_pose_client_[m[K;
+      |                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:76: CMakeFiles/part_pose_listener.dir/src/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/part_pose_listener.dir/build.make:63: CMakeFiles/part_pose_listener.dir/src/part_pose_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/part_pose_listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,315 @@
+[0.240s] Invoking command in '/home/nitish/final_ws/build/final_project': AMENT_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nitish/final_ws/src/final_project -DCMAKE_INSTALL_PREFIX=/home/nitish/final_ws/install/final_project
+[0.316s] -- The C compiler identification is GNU 9.4.0
+[0.403s] -- The CXX compiler identification is GNU 9.4.0
+[0.410s] -- Check for working C compiler: /usr/bin/cc
+[0.519s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.521s] -- Detecting C compiler ABI info
+[0.638s] -- Detecting C compiler ABI info - done
+[0.654s] -- Detecting C compile features
+[0.654s] -- Detecting C compile features - done
+[0.657s] -- Check for working CXX compiler: /usr/bin/c++
+[0.784s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.786s] -- Detecting CXX compiler ABI info
+[0.914s] -- Detecting CXX compiler ABI info - done
+[0.935s] -- Detecting CXX compile features
+[0.935s] -- Detecting CXX compile features - done
+[0.939s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.978s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.978s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.107s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.210s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.326s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.376s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.607s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.612s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.646s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.651s] -- Looking for pthread.h
+[1.741s] -- Looking for pthread.h - found
+[1.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.812s] -- Looking for pthread_create in pthreads
+[1.903s] -- Looking for pthread_create in pthreads - not found
+[1.903s] -- Looking for pthread_create in pthread
+[2.012s] -- Looking for pthread_create in pthread - found
+[2.014s] -- Found Threads: TRUE  
+[2.277s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[2.281s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[2.350s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.352s] -- Checking for module 'bullet>=2.82'
+[2.379s] --   Found bullet, version 2.88
+[2.590s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.697s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.785s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.816s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.886s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.937s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.947s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.963s] -- Searching for dependencies of ignition-math6
+[2.968s] -- Looking for OGRE...
+[2.969s] -- OGRE_PREFIX_WATCH changed.
+[2.979s] -- Checking for module 'OGRE'
+[3.005s] --   Found OGRE, version 1.9.0
+[3.075s] -- Found Ogre Ghadamon (1.9.0)
+[3.098s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.115s] -- Looking for OGRE_Paging...
+[3.124s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.125s] -- Looking for OGRE_Terrain...
+[3.134s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.134s] -- Looking for OGRE_Property...
+[3.143s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.143s] -- Looking for OGRE_RTShaderSystem...
+[3.152s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.153s] -- Looking for OGRE_Volume...
+[3.161s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.162s] -- Looking for OGRE_Overlay...
+[3.171s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.421s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.429s] -- Looking for ignition-transport8 -- found version 8.3.0
+[3.430s] -- Searching for dependencies of ignition-transport8
+[3.459s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[3.478s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.486s] -- Checking for module 'libzmq >= 4'
+[3.514s] --   Found libzmq , version 4.3.2
+[3.583s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.589s] -- Checking for module 'uuid'
+[3.607s] --   Found uuid, version 2.34.0
+[3.669s] -- Found UUID: TRUE  
+[3.671s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[3.672s] -- Searching for dependencies of ignition-msgs5
+[3.706s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.714s] -- Checking for module 'tinyxml2'
+[3.741s] --   Found tinyxml2, version 6.2.0
+[3.804s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[3.806s] -- Looking for ignition-common3 -- found version 3.14.2
+[3.807s] -- Searching for dependencies of ignition-common3
+[3.807s] -- Looking for dlfcn.h - found
+[3.808s] -- Looking for libdl - found
+[3.810s] -- Found DL: TRUE  
+[3.820s] -- Searching for <ignition-common3> component [graphics]
+[3.823s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[3.823s] -- Searching for dependencies of ignition-common3-graphics
+[3.824s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.828s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[3.828s] -- Searching for dependencies of ignition-fuel_tools4
+[3.943s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[3.955s] -- Checking for module 'jsoncpp'
+[3.973s] --   Found jsoncpp, version 1.7.4
+[4.038s] -- Found JSONCPP: TRUE  
+[4.046s] -- Checking for module 'libzip'
+[4.065s] --   Found libzip, version 1.5.1
+[4.124s] -- Found ZIP: TRUE  
+[4.125s] -- Looking for ignition-common3 -- found version 3.14.2
+[4.125s] -- Looking for ignition-math6 -- found version 6.15.0
+[4.126s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[4.132s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[4.143s] -- Gazebo version: 11.11
+[4.153s] -- Found camera_info_manager: 2.5.1 (/opt/ros/galactic/share/camera_info_manager/cmake)
+[4.414s] -- Found gazebo_msgs: 3.5.2 (/opt/ros/galactic/share/gazebo_msgs/cmake)
+[4.818s] -- Found image_transport: 2.5.1 (/opt/ros/galactic/share/image_transport/cmake)
+[4.917s] -- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)
+[4.966s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[4.986s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[5.002s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[5.016s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[5.019s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.655s] -- Found mage_msgs: 0.0.0 (/home/nitish/final_ws/install/mage_msgs/share/mage_msgs/cmake)
+[6.321s] -- Configuring done
+[6.444s] -- Generating done
+[6.451s] -- Build files have been written to: /home/nitish/final_ws/build/final_project
+[6.475s] Invoked command in '/home/nitish/final_ws/build/final_project' returned '0': AMENT_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nitish/final_ws/src/final_project -DCMAKE_INSTALL_PREFIX=/home/nitish/final_ws/install/final_project
+[6.477s] Invoking command in '/home/nitish/final_ws/build/final_project': AMENT_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nitish/final_ws/build/final_project -- -j12 -l12
+[6.553s] [35m[1mScanning dependencies of target ament_cmake_python_copy_final_project[0m
+[6.554s] [35m[1mScanning dependencies of target AriacLogicalCameraPlugin[0m
+[6.555s] [35m[1mScanning dependencies of target disable_shadows_plugin[0m
+[6.587s] [  0%] Built target ament_cmake_python_copy_final_project
+[6.603s] [35m[1mScanning dependencies of target ament_cmake_python_build_final_project_scripts[0m
+[6.603s] [35m[1mScanning dependencies of target ament_cmake_python_build_final_project_egg[0m
+[6.794s] [ 25%] [32mBuilding CXX object CMakeFiles/disable_shadows_plugin.dir/src/disable_shadows_plugin.cpp.o[0m
+[6.802s] [ 50%] [32mBuilding CXX object CMakeFiles/AriacLogicalCameraPlugin.dir/src/ariac_logical_camera_plugin.cpp.o[0m
+[6.949s] running egg_info
+[6.950s] creating final_project.egg-info
+[6.950s] writing final_project.egg-info/PKG-INFO
+[6.950s] writing dependency_links to final_project.egg-info/dependency_links.txt
+[6.951s] writing top-level names to final_project.egg-info/top_level.txt
+[6.952s] writing manifest file 'final_project.egg-info/SOURCES.txt'
+[6.964s] running install_scripts
+[7.015s] reading manifest file 'final_project.egg-info/SOURCES.txt'
+[7.016s] writing manifest file 'final_project.egg-info/SOURCES.txt'
+[7.017s] running egg_info
+[7.018s] writing final_project.egg-info/PKG-INFO
+[7.018s] writing dependency_links to final_project.egg-info/dependency_links.txt
+[7.018s] writing top-level names to final_project.egg-info/top_level.txt
+[7.045s] [ 50%] Built target ament_cmake_python_build_final_project_egg
+[7.053s] reading manifest file 'final_project.egg-info/SOURCES.txt'
+[7.054s] writing manifest file 'final_project.egg-info/SOURCES.txt'
+[7.084s] [ 50%] Built target ament_cmake_python_build_final_project_scripts
+[18.870s] [ 75%] [32m[1mLinking CXX shared library libdisable_shadows_plugin.so[0m
+[19.305s] [ 75%] Built target disable_shadows_plugin
+[23.291s] [100%] [32m[1mLinking CXX shared library libAriacLogicalCameraPlugin.so[0m
+[24.394s] [100%] Built target AriacLogicalCameraPlugin
+[24.412s] Invoked command in '/home/nitish/final_ws/build/final_project' returned '0': AMENT_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nitish/final_ws/build/final_project -- -j12 -l12
+[24.459s] Invoking command in '/home/nitish/final_ws/build/final_project': AMENT_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nitish/final_ws/build/final_project
+[24.472s] -- Install configuration: ""
+[24.472s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/environment/library_path.sh
+[24.473s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/environment/library_path.dsv
+[24.473s] -- Installing: /home/nitish/final_ws/install/final_project/include
+[24.473s] -- Installing: /home/nitish/final_ws/install/final_project/include/final_project
+[24.473s] -- Installing: /home/nitish/final_ws/install/final_project/include/final_project/ariac_logical_camera_plugin.hpp
+[24.474s] -- Installing: /home/nitish/final_ws/install/final_project/include/final_project/disable_shadows_plugin.hpp
+[24.474s] -- Installing: /home/nitish/final_ws/install/final_project/lib/libAriacLogicalCameraPlugin.so
+[24.479s] -- Set runtime path of "/home/nitish/final_ws/install/final_project/lib/libAriacLogicalCameraPlugin.so" to ""
+[24.479s] -- Installing: /home/nitish/final_ws/install/final_project/lib/libdisable_shadows_plugin.so
+[24.482s] -- Set runtime path of "/home/nitish/final_ws/install/final_project/lib/libdisable_shadows_plugin.so" to ""
+[24.482s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//config
+[24.482s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//config/sensors.yaml
+[24.482s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//config/waypoint_params.yaml
+[24.483s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//launch
+[24.483s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//launch/robot_state_publisher.launch.py
+[24.483s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//launch/spawn_turtlebot3.launch.py
+[24.483s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//launch/final_project.launch.py
+[24.483s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models
+[24.483s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1
+[24.483s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/model.config
+[24.484s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/model.sdf
+[24.484s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials
+[24.484s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/scripts
+[24.484s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/scripts/marker.material
+[24.484s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures
+[24.484s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/5x5_1000-1.svg
+[24.484s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/svgtopng.zip
+[24.484s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/5x5_1000-1.png
+[24.485s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_1/materials/textures/marker_1.png
+[24.485s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/floor
+[24.485s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes
+[24.485s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/Suede_Blue.jpg
+[24.485s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/floor.dae
+[24.485s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/Suede_Blue_1.jpg
+[24.486s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/meshes/example-2.png
+[24.486s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/model.config
+[24.486s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/floor/model.sdf
+[24.486s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets
+[24.486s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes
+[24.486s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/box_pallet.dae
+[24.491s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/AM200_029_02_Diffuse.jpg
+[24.491s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/AM200_029_01_Diffuse.jpg
+[24.495s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/meshes/AM200_029_07_Diffuse.jpg
+[24.499s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/model.config
+[24.500s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets/model.sdf
+[24.500s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3
+[24.500s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes
+[24.500s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/box_pallet.dae
+[24.502s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_08_Diffuse.jpg
+[24.506s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_04_Diffuse.jpg
+[24.506s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_01_Diffuse.jpg
+[24.509s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/meshes/AM200_029_03_Diffuse.jpg
+[24.513s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/model.config
+[24.513s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_3/model.sdf
+[24.514s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2
+[24.515s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/model.config
+[24.515s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/model.sdf
+[24.515s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials
+[24.516s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/scripts
+[24.517s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/scripts/marker.material
+[24.517s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures
+[24.517s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/5x5_1000-2.png
+[24.518s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/marker_2.png
+[24.518s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/5x5_1000-2.svg
+[24.519s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_2/materials/textures/svgtopng.zip
+[24.519s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0
+[24.519s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/model.config
+[24.520s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/model.sdf
+[24.520s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials
+[24.520s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/scripts
+[24.521s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/scripts/marker.material
+[24.521s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures
+[24.521s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/5x5_1000-0.svg
+[24.522s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/marker_0_old.png
+[24.522s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/svgtopng.zip
+[24.522s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/aruco_marker_0/materials/textures/5x5_1000-0.png
+[24.523s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/battery
+[24.523s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes
+[24.524s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_base.stl
+[24.524s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_cap.stl
+[24.524s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_collision.stl
+[24.525s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/meshes/battery_pins.stl
+[24.525s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/model.config
+[24.526s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/battery/model.sdf
+[24.526s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera
+[24.526s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/meshes
+[24.526s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/meshes/camera.dae
+[24.527s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/model.config
+[24.527s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/model.sdf
+[24.527s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/materials
+[24.527s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/materials/textures
+[24.527s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/advanced_logical_camera/materials/textures/camera.png
+[24.528s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin
+[24.528s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes
+[24.528s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/bin_interior.stl
+[24.528s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/bin_exterior.dae
+[24.529s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/Steel_Brushed_Stainless.jpg.001.jpg
+[24.529s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/bin_exterior.stl
+[24.529s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/meshes/Metal_Rough.jpg.001.jpg
+[24.530s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/model.config
+[24.530s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/parts_bin/model.sdf
+[24.531s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2
+[24.531s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes
+[24.531s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/box_pallet.dae
+[24.537s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/AM200_029_06_Diffuse.jpg
+[24.542s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/AM200_029_01_Diffuse.jpg
+[24.548s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/meshes/AM200_029_05_Diffuse.jpg
+[24.549s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/model.config
+[24.549s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/box_pallets_2/model.sdf
+[24.550s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle
+[24.550s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle/model-1_4.sdf
+[24.550s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle/model.config
+[24.550s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//models/turtlebot3_waffle/model.sdf
+[24.550s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//worlds
+[24.550s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//worlds/final.world
+[24.550s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//maps
+[24.550s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//maps/final2_map.pgm
+[24.551s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project//maps/final2_map.yaml
+[24.551s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/environment/pythonpath.sh
+[24.551s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/environment/pythonpath.dsv
+[24.551s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info
+[24.551s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/dependency_links.txt
+[24.551s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/SOURCES.txt
+[24.551s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/top_level.txt
+[24.551s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages//final_project.egg-info/PKG-INFO
+[24.551s] -- Installing: /home/nitish/final_ws/install/final_project/lib/final_project/
+[24.552s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project
+[24.552s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/tf_broadcaster.py
+[24.552s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/__init__.py
+[24.552s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/utilities.py
+[24.552s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/spawn_params.py
+[24.552s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/tf2_geometry_msgs.py
+[24.552s] -- Installing: /home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/environment_startup.py
+[24.613s] Listing '/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project'...
+[24.613s] Compiling '/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/__init__.py'...
+[24.613s] Compiling '/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/environment_startup.py'...
+[24.613s] Compiling '/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/spawn_params.py'...
+[24.613s] Compiling '/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/tf2_geometry_msgs.py'...
+[24.613s] Compiling '/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/tf_broadcaster.py'...
+[24.613s] Compiling '/home/nitish/final_ws/install/final_project/lib/python3.8/site-packages/final_project/utilities.py'...
+[24.618s] -- Installing: /home/nitish/final_ws/install/final_project/lib/final_project/environment_startup_node.py
+[24.619s] -- Installing: /home/nitish/final_ws/install/final_project/lib/final_project/sensor_tf_broadcaster.py
+[24.619s] -- Installing: /home/nitish/final_ws/install/final_project/lib/final_project/part_spawner.py
+[24.619s] -- Installing: /home/nitish/final_ws/install/final_project/lib/final_project/object_tf_broadcaster.py
+[24.619s] -- Installing: /home/nitish/final_ws/install/final_project/share/ament_index/resource_index/package_run_dependencies/final_project
+[24.619s] -- Installing: /home/nitish/final_ws/install/final_project/share/ament_index/resource_index/parent_prefix_path/final_project
+[24.620s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/environment/ament_prefix_path.sh
+[24.620s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/environment/ament_prefix_path.dsv
+[24.620s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/environment/path.sh
+[24.620s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/environment/path.dsv
+[24.620s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.bash
+[24.621s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.sh
+[24.621s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.zsh
+[24.621s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/local_setup.dsv
+[24.621s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/package.dsv
+[24.622s] -- Installing: /home/nitish/final_ws/install/final_project/share/ament_index/resource_index/packages/final_project
+[24.622s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/cmake/ament_cmake_export_libraries-extras.cmake
+[24.622s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/cmake/final_projectConfig.cmake
+[24.622s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/cmake/final_projectConfig-version.cmake
+[24.623s] -- Installing: /home/nitish/final_ws/install/final_project/share/final_project/package.xml
+[24.626s] Invoked command in '/home/nitish/final_ws/build/final_project' returned '0': AMENT_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nitish/final_ws/install/mage_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/nitish/final_ws/install/mage_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nitish/final_ws/install/mage_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nitish/final_ws/build/final_project

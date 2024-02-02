@@ -1,0 +1,11 @@
+{
+  "package_name": "mage_msgs",
+  "non_idl_tuples": [
+    "/home/nitish/final_ws/src/mage_msgs:msg/AdvancedLogicalCameraImage.msg",
+    "/home/nitish/final_ws/src/mage_msgs:msg/Part.msg",
+    "/home/nitish/final_ws/src/mage_msgs:msg/PartPose.msg",
+    "/home/nitish/final_ws/src/mage_msgs:msg/Sensors.msg",
+    "/home/nitish/final_ws/src/mage_msgs:msg/Marker.msg",
+    "/home/nitish/final_ws/src/mage_msgs:msg/MarkerArray.msg"
+  ]
+}
