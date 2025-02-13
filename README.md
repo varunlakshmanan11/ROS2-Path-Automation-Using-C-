@@ -1,4 +1,4 @@
-# group11_final ROS2 Package
+# ROS2 SIMULATION FOR PATH AUTOMATION OF A TURTLEBOT IN A CUSTOM ENVIRONMENT USING C++
 ## Overview
 The `group11_final` package is designed for use in ROS2 environments to facilitate interaction with logical cameras and ArUco markers for robotic navigation and object interaction tasks. It listens for part poses from logical cameras and ArUco markers, sending navigation goals to the robot based on the detected poses. This package integrates with the ROS2 navigation stack, specifically designed to work with the `nav2_msgs` action server for navigating to specified poses.
 
